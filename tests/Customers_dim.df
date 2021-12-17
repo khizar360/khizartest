@@ -1,0 +1,1069 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataflowDocument xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductVersion="9.0.0.326">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\Users\khizer.alam\Downloads\Oracle_Snowflake\PGtoORA_Dataflows\Customers_dim.df</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>6f4427c7-efa7-4841-8989-7deace0eb4b6</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>6f4427c7-efa7-4841-8989-7deace0eb4b6</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>SCD</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>490</Height>
+            <Width>220</Width>
+            <X>618</X>
+            <Y>13</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>CUSTOMERS</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataScd>
+        <Name>CUSTOMERS</Name>
+        <EntityName>CUSTOMER</EntityName>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>CUSTOMERS</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Database</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="customer_id" Index="0" AllowsNull="false" Name="customer_id" DbDataTypeName="INTEGER" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="customer_id">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>278006af-6fe9-4091-a2ea-f2a4fa8a1eae</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>BusinessKey</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="200" DataType="String" IsPrimaryKey="false" Header="customer_name" Index="1" AllowsNull="false" Name="customer_name" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="customer_name">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>d0430a8d-2b6a-4e69-96f2-0a77581a8e11</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="18" DataType="Decimal" IsPrimaryKey="false" Header="credit_limit" Index="2" AllowsNull="true" Name="credit_limit" DbDataTypeName="DECIMAL" DecimalLength="2" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="credit_limit">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ac6f7b71-f9c3-4ee8-8976-556ac664a62d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="account_opened_date" Index="3" AllowsNull="false" Name="account_opened_date" DbDataTypeName="DATE" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="account_opened_date">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>23a88ecc-6dac-42bb-82ba-00799ed5880d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="18" DataType="Decimal" IsPrimaryKey="false" Header="standard_discount_percentage" Index="4" AllowsNull="false" Name="standard_discount_percentage" DbDataTypeName="DECIMAL" DecimalLength="3" SurvivorValueType="New" CoreDbType="Decimal" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="standard_discount_percentage">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>e5334077-a1bc-41e5-a973-70aa7efc6b4b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="1" DataType="Boolean" IsPrimaryKey="false" Header="is_statement_sent" Index="5" AllowsNull="false" Name="is_statement_sent" DbDataTypeName="BOOLEAN" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="is_statement_sent">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1f318efe-2968-41dd-bfb5-705584426258</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="1" DataType="Boolean" IsPrimaryKey="false" Header="is_on_credit_hold" Index="6" AllowsNull="false" Name="is_on_credit_hold" DbDataTypeName="BOOLEAN" DecimalLength="0" SurvivorValueType="New" CoreDbType="Boolean" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="is_on_credit_hold">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>53911d44-7778-48d4-a335-131f096a94f6</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="payment_days" Index="7" AllowsNull="false" Name="payment_days" DbDataTypeName="INTEGER" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="payment_days">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>8521f1ad-d427-414d-9ce3-b4d7eee36bc5</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="40" DataType="String" IsPrimaryKey="false" Header="phone_number" Index="8" AllowsNull="false" Name="phone_number" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="phone_number">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>c4003adc-f66c-4d70-a9aa-9c9f78772ed1</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="40" DataType="String" IsPrimaryKey="false" Header="fax_number" Index="9" AllowsNull="false" Name="fax_number" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="fax_number">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>d45ce10f-32b6-4973-93c5-08c88f5e879b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="String" IsPrimaryKey="false" Header="delivery_run" Index="10" AllowsNull="true" Name="delivery_run" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="delivery_run">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>b1f57478-215a-42d0-b407-ed126c7f340d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="10" DataType="String" IsPrimaryKey="false" Header="run_position" Index="11" AllowsNull="true" Name="run_position" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="run_position">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>9c982f16-72f0-457c-b94d-adc7685b4cae</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="512" DataType="String" IsPrimaryKey="false" Header="website_url" Index="12" AllowsNull="false" Name="website_url" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="website_url">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>40301443-b320-4954-9d7a-256d6cac0630</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="120" DataType="String" IsPrimaryKey="false" Header="delivery_address_line_1" Index="13" AllowsNull="false" Name="delivery_address_line_1" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="delivery_address_line_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>5bde8c64-110c-4ad4-9885-fe09b858b018</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="120" DataType="String" IsPrimaryKey="false" Header="delivery_address_line_2" Index="14" AllowsNull="true" Name="delivery_address_line_2" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="delivery_address_line_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>d69ca367-beea-425e-b367-4e0dea0256cb</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="20" DataType="String" IsPrimaryKey="false" Header="delivery_postal_code" Index="15" AllowsNull="false" Name="delivery_postal_code" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="delivery_postal_code">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>902a70d3-1c69-4ba1-9ebb-1da5b47ffbb5</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="120" DataType="String" IsPrimaryKey="false" Header="postal_address_line_1" Index="16" AllowsNull="false" Name="postal_address_line_1" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="postal_address_line_1">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>d20d5434-6b40-4a51-9085-e15674cf1965</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="120" DataType="String" IsPrimaryKey="false" Header="postal_address_line_2" Index="17" AllowsNull="true" Name="postal_address_line_2" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="postal_address_line_2">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>6336d324-88cd-4603-8e30-86549fa0d460</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="20" DataType="String" IsPrimaryKey="false" Header="postal_postal_code" Index="18" AllowsNull="false" Name="postal_postal_code" DbDataTypeName="STRING" DecimalLength="0" SurvivorValueType="New" CoreDbType="VarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="postal_postal_code">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2f7f2536-f3c5-4876-835a-aeaf6d731b63</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="20" DataType="Integer" IsPrimaryKey="true" Header="customersKey" Index="19" AllowsNull="false" Name="customersKey" DbDataTypeName="INTEGER" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="true" ColumnName="customersKey">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>0864d8e3-f0d3-4d3e-96cf-0e72aaf9059b</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>SurrogateKey</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="EffectiveDate" Index="20" AllowsNull="false" Name="EffectiveDate" DbDataTypeName="DATE" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="EffectiveDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1597c26f-0a4f-446a-9993-1a5217018958</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>EffectiveDate</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="ExpirationDate" Index="21" AllowsNull="false" Name="ExpirationDate" DbDataTypeName="DATE" DecimalLength="0" SurvivorValueType="New" CoreDbType="DateTime" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="ExpirationDate">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>923ec4f3-f227-45fd-b126-973dedb693ec</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>ExpirationDate</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="0" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="Adm" Server="HTTPS://LOCALHOST:9261" Database="PG2ORA" Schema="" EncryptedUser="1995A675F31C7452D69C57BC32CDFECE" EncryptedPassword="2B417B33F1A37C7F875093DD634BDA1E" TableName="customers" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter>
+              <DataProviderType>Adm</DataProviderType>
+            </providerFilter>
+            <UseSharedConnection>false</UseSharedConnection>
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <SecurityToken />
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>-1</JobId>
+            <RedirectUri>http://localhost:8050/</RedirectUri>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys />
+          <ReferencingForeignKeys />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" TrimStrings="true" ShowCollections="false">
+            <FilterRules />
+            <AuditFieldValueStore>File</AuditFieldValueStore>
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <PartitionKeyValues />
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
+              <Path />
+              <UncPath />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+          </DefaultReaderOptions>
+          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+            <IsolationLevel>Unspecified</IsolationLevel>
+            <MaxErrorCount>0</MaxErrorCount>
+            <KeyFields />
+            <TableInfo>
+              <Name>customers</Name>
+              <TableType>Table</TableType>
+              <ColumnarTableType>None</ColumnarTableType>
+              <Schema />
+              <DataModelEntityType>Dimension</DataModelEntityType>
+              <DimensionType>General</DimensionType>
+              <IsQueryable>true</IsQueryable>
+              <IsUpdateable>true</IsUpdateable>
+              <IsIntersect>false</IsIntersect>
+              <ActionName>customers</ActionName>
+            </TableInfo>
+            <TruncateTable>false</TruncateTable>
+            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+            <BulkCopyOptions>0</BulkCopyOptions>
+            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+            <DirectLoad>false</DirectLoad>
+            <TruncateToFit>false</TruncateToFit>
+            <UpdateConditionRules />
+            <WriteStrategy>AlwaysInsert</WriteStrategy>
+          </DefaultWriterOptions>
+          <PrimaryKey>
+            <string>customersKey</string>
+          </PrimaryKey>
+          <AllowsScd3AndScd6FieldRoles>true</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
+        </Layout>
+        <OutputPortType>NoOutput</OutputPortType>
+        <TableWriteType>Bulk</TableWriteType>
+        <InsertBatchSize>10000</InsertBatchSize>
+        <TableInfo>
+          <Name>customers</Name>
+          <Database>PG2ORA</Database>
+          <TableType>Table</TableType>
+          <ColumnarTableType>None</ColumnarTableType>
+          <Schema />
+          <DataModelEntityType>Dimension</DataModelEntityType>
+          <DimensionType>General</DimensionType>
+          <IsQueryable>true</IsQueryable>
+          <IsUpdateable>true</IsUpdateable>
+          <IsIntersect>false</IsIntersect>
+          <ActionName>customers</ActionName>
+        </TableInfo>
+        <SharingConnection>false</SharingConnection>
+        <DbInfo Port="0" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="Adm" Server="HTTPS://LOCALHOST:9261" Database="PG2ORA" Schema="" EncryptedUser="1995A675F31C7452D69C57BC32CDFECE" EncryptedPassword="2B417B33F1A37C7F875093DD634BDA1E" TableName="customers" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter>
+            <DataProviderType>Adm</DataProviderType>
+          </providerFilter>
+          <UseSharedConnection>false</UseSharedConnection>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>-1</JobId>
+          <RedirectUri>http://localhost:8050/</RedirectUri>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+        </DbInfo>
+        <KeyFields />
+        <IsCaseSensitive>false</IsCaseSensitive>
+      </DataflowItemDataScd>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>8523da10-7743-4844-b5b0-159d3b50519d</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>8523da10-7743-4844-b5b0-159d3b50519d</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DataModelSource</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>576</Height>
+            <Width>180</Width>
+            <X>123</X>
+            <Y>2</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DataModelQuery</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataSourceDataModel>
+        <Name>DataModelQuery</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="QueryLayout" IsHierarchicalFile="false" SourceObjectName="CUSTOMERS" WhereClause="">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>DataModelQuery</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Query</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="0" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="Adm" Server="HTTPS://LOCALHOST:9261" Database="WWI_Source" Schema="" EncryptedUser="1995A675F31C7452D69C57BC32CDFECE" EncryptedPassword="2B417B33F1A37C7F875093DD634BDA1E" TableName="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter>
+              <DataProviderType>Adm</DataProviderType>
+            </providerFilter>
+            <UseSharedConnection>false</UseSharedConnection>
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <SecurityToken />
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>-1</JobId>
+            <RedirectUri>http://localhost:8050/</RedirectUri>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          </DbInfo>
+          <LoadKeys />
+          <AllowCollections>false</AllowCollections>
+          <DataModelSource>UseSpecified</DataModelSource>
+          <DataModelPathResolved>
+            <Path />
+            <UncPath />
+          </DataModelPathResolved>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0">
+            <FilterRules />
+            <DataModelSource>UseSpecified</DataModelSource>
+            <DataModelPathResolved>
+              <Path />
+              <UncPath />
+            </DataModelPathResolved>
+            <OverrideDataModelDbInfo>false</OverrideDataModelDbInfo>
+            <QbeElements />
+          </DefaultReaderOptions>
+          <Filter IsHidden="false" IsTemplate="false">
+            <IsFolder>false</IsFolder>
+            <Id>0</Id>
+            <IsNewRecord>false</IsNewRecord>
+            <Name>QueryLayout Filter</Name>
+            <Description />
+            <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+            <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          </Filter>
+          <OrderElements />
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Normal</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <CanPushdown>true</CanPushdown>
+        <DbInfo Port="0" Protocol="http" AuthenticationType="SqlServerAuth" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="true" IsAccessExclusive="false" DataProvider="Adm" Server="HTTPS://LOCALHOST:9261" Database="WWI_Source" Schema="" EncryptedUser="1995A675F31C7452D69C57BC32CDFECE" EncryptedPassword="2B417B33F1A37C7F875093DD634BDA1E" TableName="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter>
+            <DataProviderType>Adm</DataProviderType>
+          </providerFilter>
+          <UseSharedConnection>false</UseSharedConnection>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>-1</JobId>
+          <RedirectUri>http://localhost:8050/</RedirectUri>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+        </DbInfo>
+        <SharingConnection>false</SharingConnection>
+        <AllowCollections>false</AllowCollections>
+      </DataflowItemDataSourceDataModel>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps />
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>7ba1870f-1354-4ea8-9a39-96128bbdff7a</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>120.911461</X>
+        <Y>2</Y>
+      </Location>
+      <Size>
+        <Width>743.088562</Width>
+        <Height>607</Height>
+      </Size>
+      <X>120.911461</X>
+      <Y>2</Y>
+      <Width>743.088562</Width>
+      <Height>607</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</DataflowDocument>
