@@ -23,11 +23,6 @@
             <VcAction>None</VcAction>
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_CurrentRecord_NP.xlsx</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
             <Name>DiffCombination_EffectiveDate.xlsx</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
@@ -196,11 +191,6 @@
         <Members>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>DiffCombination_CurrentRecord.xlsx</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_CurrentRecord_NP.xlsx</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
