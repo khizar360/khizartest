@@ -13,115 +13,39 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>016e8716-e956-47d1-a0aa-a9ef809a3a6d</UniqueId>
+        <UniqueId>1c9c3886-d1e9-427f-9dc3-148aa80d2d04</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>016e8716-e956-47d1-a0aa-a9ef809a3a6d</ActionId>
+        <ActionId>1c9c3886-d1e9-427f-9dc3-148aa80d2d04</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>DataModelSource</ActionTemplateName>
+        <ActionTemplateName>SapBapiRead</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>124</X>
-            <Y>88</Y>
-            <IsExpanded>false</IsExpanded>
+            <X>200</X>
+            <Y>276</Y>
+            <IsExpanded>true</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
         </NodeBounds>
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
-        <SourceActionRole>Singleton</SourceActionRole>
-        <Name>DataModelQuery</Name>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>SapBapi</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceDataModel>
-        <Name>DataModelQuery</Name>
+      <DataflowItemDataSourceSapBapi>
+        <Name>SapBapi</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <Layout xsi:type="QueryLayout" IsHierarchicalFile="false">
-          <IsFolder>false</IsFolder>
-          <Id>0</Id>
-          <IsNewRecord>false</IsNewRecord>
-          <Name>DataModelQuery</Name>
-          <Description />
-          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
-          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
-          <IsSharedLayout>false</IsSharedLayout>
-          <LayoutBuildingOptions>
-            <RecordType>Query</RecordType>
-            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
-            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
-          </LayoutBuildingOptions>
-          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
-          <Fields />
-          <Children />
-          <Referenced />
-          <ValidationRules />
-          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
-            <IsReadOnly>false</IsReadOnly>
-            <providerFilter>
-              <DataProviderType>Adm</DataProviderType>
-            </providerFilter>
-            <UseSharedConnection>false</UseSharedConnection>
-            <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
-            <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
-            <UseS3ForStaging>false</UseS3ForStaging>
-            <StagingProvider>None</StagingProvider>
-            <SecurityToken />
-            <UseSandbox>false</UseSandbox>
-            <RetrieveDeleted>false</RetrieveDeleted>
-            <ResetCache>false</ResetCache>
-            <WebProxyUserId />
-            <WebProxyPassword />
-            <JobId>0</JobId>
-            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
-            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
-          </DbInfo>
-          <LoadKeys />
-          <AllowCollections>false</AllowCollections>
-          <DataModelSource>UseSpecified</DataModelSource>
-          <DataModelPathResolved>
-            <Path />
-            <UncPath />
-          </DataModelPathResolved>
-          <DefaultReaderOptions EndRecord="0" StartRecord="0">
-            <FilterRules />
-            <DataModelSource>UseSpecified</DataModelSource>
-            <DataModelPathResolved>
-              <Path />
-              <UncPath />
-            </DataModelPathResolved>
-            <OverrideDataModelDbInfo>false</OverrideDataModelDbInfo>
-            <QbeElements />
-          </DefaultReaderOptions>
-          <Filter IsHidden="false" IsTemplate="false">
-            <IsFolder>false</IsFolder>
-            <Id>0</Id>
-            <IsNewRecord>false</IsNewRecord>
-            <Name>QueryLayout Filter</Name>
-            <Description />
-            <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
-            <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
-          </Filter>
-          <OrderElements />
-        </Layout>
-        <ContinueIterationOnError>false</ContinueIterationOnError>
-        <ActionRole>Singleton</ActionRole>
-        <OutboundTransform>
-          <Transforms />
-        </OutboundTransform>
-        <CanPushdown>true</CanPushdown>
         <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
           <IsReadOnly>false</IsReadOnly>
-          <providerFilter>
-            <DataProviderType>Adm</DataProviderType>
-          </providerFilter>
           <UseSharedConnection>false</UseSharedConnection>
           <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
           <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
@@ -138,29 +62,28 @@
           <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
         </DbInfo>
         <SharingConnection>false</SharingConnection>
-        <AllowCollections>false</AllowCollections>
-      </DataflowItemDataSourceDataModel>
+      </DataflowItemDataSourceSapBapi>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>14fff738-c25b-41c0-aa1e-870f14435e9b</UniqueId>
+    <UniqueId>21514115-4804-4af7-81dc-99ea3ed6efa2</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>123</X>
-        <Y>88</Y>
+        <X>199</X>
+        <Y>276</Y>
       </Location>
       <Size>
         <Width>197</Width>
-        <Height>220</Height>
+        <Height>140</Height>
       </Size>
-      <X>123</X>
-      <Y>88</Y>
+      <X>199</X>
+      <Y>276</Y>
       <Width>197</Width>
-      <Height>220</Height>
+      <Height>140</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>

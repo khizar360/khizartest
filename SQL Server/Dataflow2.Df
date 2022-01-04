@@ -13,48 +13,48 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>8d7d3393-0495-4203-bdc6-000fd1ef445d</UniqueId>
+        <UniqueId>1ce51e3e-6905-42a6-8263-78e41f81adef</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>8d7d3393-0495-4203-bdc6-000fd1ef445d</ActionId>
+        <ActionId>1ce51e3e-6905-42a6-8263-78e41f81adef</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>DataModelSource</ActionTemplateName>
+        <ActionTemplateName>PdfFormSource</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>94</X>
-            <Y>82</Y>
-            <IsExpanded>false</IsExpanded>
+            <X>84</X>
+            <Y>207</Y>
+            <IsExpanded>true</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
         </NodeBounds>
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
         <SourceActionRole>Normal</SourceActionRole>
-        <Name>DataModelQuery</Name>
+        <Name>PdfFormSource</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceDataModel>
-        <Name>DataModelQuery</Name>
+      <DataflowItemDataSourcePdfForm>
+        <Name>PdfFormSource</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <Layout xsi:type="QueryLayout" IsHierarchicalFile="false">
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
           <IsFolder>false</IsFolder>
           <Id>0</Id>
           <IsNewRecord>false</IsNewRecord>
-          <Name>DataModelQuery</Name>
+          <Name>PdfFormSource</Name>
           <Description />
           <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
           <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
           <IsSharedLayout>false</IsSharedLayout>
           <LayoutBuildingOptions>
-            <RecordType>Query</RecordType>
+            <RecordType>Record</RecordType>
             <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
             <LayoutBuildingProcess>Default</LayoutBuildingProcess>
           </LayoutBuildingOptions>
@@ -63,104 +63,43 @@
           <Children />
           <Referenced />
           <ValidationRules />
-          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
-            <IsReadOnly>false</IsReadOnly>
-            <providerFilter>
-              <DataProviderType>Adm</DataProviderType>
-            </providerFilter>
-            <UseSharedConnection>false</UseSharedConnection>
-            <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
-            <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
-            <UseS3ForStaging>false</UseS3ForStaging>
-            <StagingProvider>None</StagingProvider>
-            <SecurityToken />
-            <UseSandbox>false</UseSandbox>
-            <RetrieveDeleted>false</RetrieveDeleted>
-            <ResetCache>false</ResetCache>
-            <WebProxyUserId />
-            <WebProxyPassword />
-            <JobId>0</JobId>
-            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
-            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
-          </DbInfo>
-          <LoadKeys />
-          <AllowCollections>false</AllowCollections>
-          <DataModelSource>UseSpecified</DataModelSource>
-          <DataModelPathResolved>
-            <Path />
-            <UncPath />
-          </DataModelPathResolved>
-          <DefaultReaderOptions EndRecord="0" StartRecord="0">
-            <FilterRules />
-            <DataModelSource>UseSpecified</DataModelSource>
-            <DataModelPathResolved>
-              <Path />
-              <UncPath />
-            </DataModelPathResolved>
-            <OverrideDataModelDbInfo>false</OverrideDataModelDbInfo>
-            <QbeElements />
-          </DefaultReaderOptions>
-          <Filter IsHidden="false" IsTemplate="false">
-            <IsFolder>false</IsFolder>
-            <Id>0</Id>
-            <IsNewRecord>false</IsNewRecord>
-            <Name>QueryLayout Filter</Name>
-            <Description />
-            <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
-            <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
-          </Filter>
-          <OrderElements />
         </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
         <ActionRole>Normal</ActionRole>
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <CanPushdown>true</CanPushdown>
-        <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
-          <IsReadOnly>false</IsReadOnly>
-          <providerFilter>
-            <DataProviderType>Adm</DataProviderType>
-          </providerFilter>
-          <UseSharedConnection>false</UseSharedConnection>
-          <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
-          <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
-          <UseS3ForStaging>false</UseS3ForStaging>
-          <StagingProvider>None</StagingProvider>
-          <SecurityToken />
-          <UseSandbox>false</UseSandbox>
-          <RetrieveDeleted>false</RetrieveDeleted>
-          <ResetCache>false</ResetCache>
-          <WebProxyUserId />
-          <WebProxyPassword />
-          <JobId>0</JobId>
-          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
-          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
-        </DbInfo>
-        <SharingConnection>false</SharingConnection>
-        <AllowCollections>false</AllowCollections>
-      </DataflowItemDataSourceDataModel>
+        <FilePath />
+        <CanStage>true</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <FilePathResolved>
+          <Path />
+          <UncPath />
+        </FilePathResolved>
+        <OwnerPassword />
+        <UseUtf8Encoding>false</UseUtf8Encoding>
+      </DataflowItemDataSourcePdfForm>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>36abc3b0-f921-49a7-9e42-f3b608507edc</UniqueId>
+    <UniqueId>ee322f31-1e79-4fd9-8fd2-2da595580dc0</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>93</X>
-        <Y>82</Y>
+        <X>84</X>
+        <Y>207</Y>
       </Location>
       <Size>
-        <Width>197</Width>
-        <Height>220</Height>
+        <Width>212</Width>
+        <Height>140</Height>
       </Size>
-      <X>93</X>
-      <Y>82</Y>
-      <Width>197</Width>
-      <Height>220</Height>
+      <X>84</X>
+      <Y>207</Y>
+      <Width>212</Width>
+      <Height>140</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>
