@@ -13,23 +13,23 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>8812c927-b0bd-4249-af91-623e1967c5da</UniqueId>
+        <UniqueId>016e8716-e956-47d1-a0aa-a9ef809a3a6d</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>8812c927-b0bd-4249-af91-623e1967c5da</ActionId>
+        <ActionId>016e8716-e956-47d1-a0aa-a9ef809a3a6d</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>DatabaseSource</ActionTemplateName>
+        <ActionTemplateName>DataModelSource</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>81</X>
-            <Y>128</Y>
+            <X>124</X>
+            <Y>88</Y>
             <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -37,24 +37,24 @@
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
         <SourceActionRole>Singleton</SourceActionRole>
-        <Name>DatabaseSource</Name>
+        <Name>DataModelQuery</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceDatabase>
-        <Name>DatabaseSource</Name>
+      <DataflowItemDataSourceDataModel>
+        <Name>DataModelQuery</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+        <Layout xsi:type="QueryLayout" IsHierarchicalFile="false">
           <IsFolder>false</IsFolder>
           <Id>0</Id>
           <IsNewRecord>false</IsNewRecord>
-          <Name>DatabaseSource</Name>
+          <Name>DataModelQuery</Name>
           <Description />
           <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
           <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
           <IsSharedLayout>false</IsSharedLayout>
           <LayoutBuildingOptions>
-            <RecordType>Database</RecordType>
+            <RecordType>Query</RecordType>
             <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
             <LayoutBuildingProcess>Default</LayoutBuildingProcess>
           </LayoutBuildingOptions>
@@ -67,29 +67,6 @@
             <IsReadOnly>false</IsReadOnly>
             <providerFilter>
               <DataProviderType>Adm</DataProviderType>
-              <DataProviderType>DynamicsCrm</DataProviderType>
-              <DataProviderType>OData</DataProviderType>
-              <DataProviderType>SalesforceLegacy</DataProviderType>
-              <DataProviderType>Sqlite</DataProviderType>
-              <DataProviderType>Tableau</DataProviderType>
-              <DataProviderType>Salesforce</DataProviderType>
-              <DataProviderType>AmazonAuroraMySql</DataProviderType>
-              <DataProviderType>AmazonAuroraPostgreSql</DataProviderType>
-              <DataProviderType>MariaDb</DataProviderType>
-              <DataProviderType>MySql</DataProviderType>
-              <DataProviderType>PostgreSql</DataProviderType>
-              <DataProviderType>Redshift</DataProviderType>
-              <DataProviderType>SapHana</DataProviderType>
-              <DataProviderType>Snowflake</DataProviderType>
-              <DataProviderType>Vertica</DataProviderType>
-              <DataProviderType>MSAccess</DataProviderType>
-              <DataProviderType>DB2IBM</DataProviderType>
-              <DataProviderType>Netezza</DataProviderType>
-              <DataProviderType>ODBC</DataProviderType>
-              <DataProviderType>OracleODPNetManaged</DataProviderType>
-              <DataProviderType>OracleODPNet</DataProviderType>
-              <DataProviderType>SqlServer</DataProviderType>
-              <DataProviderType>Teradata</DataProviderType>
             </providerFilter>
             <UseSharedConnection>false</UseSharedConnection>
             <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
@@ -107,101 +84,43 @@
             <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
           </DbInfo>
           <LoadKeys />
-          <ForeignKeys />
-          <ReferencingForeignKeys />
-          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" TrimStrings="true" ShowCollections="false">
+          <AllowCollections>false</AllowCollections>
+          <DataModelSource>UseSpecified</DataModelSource>
+          <DataModelPathResolved>
+            <Path />
+            <UncPath />
+          </DataModelPathResolved>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0">
             <FilterRules />
-            <AuditFieldValueStore>File</AuditFieldValueStore>
-            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
-            <PartitionKeyValues />
-            <IncrementalReadStrategy>None</IncrementalReadStrategy>
-            <IncrementalTransferKeys />
-            <IncrementalTransferFilePath>
+            <DataModelSource>UseSpecified</DataModelSource>
+            <DataModelPathResolved>
               <Path />
               <UncPath />
-            </IncrementalTransferFilePath>
-            <PerformFullLoad>false</PerformFullLoad>
-            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+            </DataModelPathResolved>
+            <OverrideDataModelDbInfo>false</OverrideDataModelDbInfo>
+            <QbeElements />
           </DefaultReaderOptions>
-          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
-            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
-            <CheckForNulls>true</CheckForNulls>
-            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
-            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
-            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
-            <FilterRules />
-            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
-            <IsolationLevel>Unspecified</IsolationLevel>
-            <MaxErrorCount>0</MaxErrorCount>
-            <KeyFields />
-            <TableInfo>
-              <TableType>Table</TableType>
-              <ColumnarTableType>None</ColumnarTableType>
-              <Schema />
-              <DataModelEntityType>Unknown</DataModelEntityType>
-              <DimensionType>None</DimensionType>
-              <IsQueryable>true</IsQueryable>
-              <IsUpdateable>true</IsUpdateable>
-              <IsIntersect>false</IsIntersect>
-            </TableInfo>
-            <TruncateTable>false</TruncateTable>
-            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
-            <BulkCopyOptions>0</BulkCopyOptions>
-            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
-            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
-            <DirectLoad>false</DirectLoad>
-            <TruncateToFit>false</TruncateToFit>
-            <UpdateConditionRules />
-            <WriteStrategy>AlwaysInsert</WriteStrategy>
-          </DefaultWriterOptions>
-          <PrimaryKey />
-          <AllowsScd3AndScd6FieldRoles>false</AllowsScd3AndScd6FieldRoles>
-          <IsCaseSensitive>false</IsCaseSensitive>
+          <Filter IsHidden="false" IsTemplate="false">
+            <IsFolder>false</IsFolder>
+            <Id>0</Id>
+            <IsNewRecord>false</IsNewRecord>
+            <Name>QueryLayout Filter</Name>
+            <Description />
+            <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+            <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          </Filter>
+          <OrderElements />
         </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
         <ActionRole>Singleton</ActionRole>
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <IsDynamicLayout>false</IsDynamicLayout>
-        <DynamicLayoutOptions>
-          <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
-          <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
-        </DynamicLayoutOptions>
         <CanPushdown>true</CanPushdown>
-        <SharingConnection>false</SharingConnection>
-        <CDCAuditFieldFile>
-          <Path />
-          <UncPath />
-        </CDCAuditFieldFile>
-        <PerformFullLoad>false</PerformFullLoad>
-        <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" EncryptedUser="" EncryptedPassword="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+        <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
           <IsReadOnly>false</IsReadOnly>
           <providerFilter>
             <DataProviderType>Adm</DataProviderType>
-            <DataProviderType>DynamicsCrm</DataProviderType>
-            <DataProviderType>OData</DataProviderType>
-            <DataProviderType>SalesforceLegacy</DataProviderType>
-            <DataProviderType>Sqlite</DataProviderType>
-            <DataProviderType>Tableau</DataProviderType>
-            <DataProviderType>Salesforce</DataProviderType>
-            <DataProviderType>AmazonAuroraMySql</DataProviderType>
-            <DataProviderType>AmazonAuroraPostgreSql</DataProviderType>
-            <DataProviderType>MariaDb</DataProviderType>
-            <DataProviderType>MySql</DataProviderType>
-            <DataProviderType>PostgreSql</DataProviderType>
-            <DataProviderType>Redshift</DataProviderType>
-            <DataProviderType>SapHana</DataProviderType>
-            <DataProviderType>Snowflake</DataProviderType>
-            <DataProviderType>Vertica</DataProviderType>
-            <DataProviderType>MSAccess</DataProviderType>
-            <DataProviderType>DB2IBM</DataProviderType>
-            <DataProviderType>Netezza</DataProviderType>
-            <DataProviderType>ODBC</DataProviderType>
-            <DataProviderType>OracleODPNetManaged</DataProviderType>
-            <DataProviderType>OracleODPNet</DataProviderType>
-            <DataProviderType>SqlServer</DataProviderType>
-            <DataProviderType>Teradata</DataProviderType>
           </providerFilter>
           <UseSharedConnection>false</UseSharedConnection>
           <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
@@ -218,26 +137,28 @@
           <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
           <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
         </DbInfo>
-      </DataflowItemDataSourceDatabase>
+        <SharingConnection>false</SharingConnection>
+        <AllowCollections>false</AllowCollections>
+      </DataflowItemDataSourceDataModel>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>1b7cb273-3c60-4adc-a417-f1269088615a</UniqueId>
+    <UniqueId>14fff738-c25b-41c0-aa1e-870f14435e9b</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>80</X>
-        <Y>128</Y>
+        <X>123</X>
+        <Y>88</Y>
       </Location>
       <Size>
         <Width>197</Width>
         <Height>220</Height>
       </Size>
-      <X>80</X>
-      <Y>128</Y>
+      <X>123</X>
+      <Y>88</Y>
       <Width>197</Width>
       <Height>220</Height>
     </DocumentBounds>
