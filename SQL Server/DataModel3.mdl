@@ -3283,10 +3283,11 @@
               </PrimaryKeyFieldId>
             </DbLayoutField>
           </Fields>
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
-          <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" EncryptedUser="" EncryptedPassword="" TableName="TimeDimension" TableSchema="dbo" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
             <IsReadOnly>false</IsReadOnly>
             <providerFilter />
             <UseSharedConnection>false</UseSharedConnection>
@@ -3374,6 +3375,7 @@
           <ActionName>TimeDimension</ActionName>
         </TableInfo>
         <EntityType>Dimension</EntityType>
+        <Relationships />
         <Indexes>
           <Index>
             <Name>PK_TimeDimension</Name>
@@ -3384,7 +3386,7 @@
             <UniqueId>2efcbc43-58cb-4ad4-b1ad-fe62a1c416ed</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3401,7 +3403,7 @@
                 <Name>Key</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>25f54524-cd50-40ef-b95b-fa27d639b629</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3415,7 +3417,7 @@
             <UniqueId>0620397d-d41c-4106-b429-36de7e8e9a4e</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3433,7 +3435,7 @@
                 <Name>Time</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>4fe7592e-c1de-42dd-8e9c-a972eeedbd94</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3447,7 +3449,7 @@
             <UniqueId>52fea658-8457-454d-9878-7c177c0a3fef</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3465,7 +3467,7 @@
                 <Name>Hour12</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>7b4f3b4c-f753-4cab-98ad-3fa5d9e9fe52</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3479,7 +3481,7 @@
             <UniqueId>3e47f8e1-28fe-4372-84ba-561663270be4</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3497,7 +3499,7 @@
                 <Name>Hour24</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>31f8c7e3-d345-4740-8070-49fb5cf6cbbc</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3511,7 +3513,7 @@
             <UniqueId>e49de2d9-939a-47ba-bb8e-9ad049a57249</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3529,7 +3531,7 @@
                 <Name>Minute</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>0f227e27-98b7-4707-b230-5cdbb62f77a4</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3543,7 +3545,7 @@
             <UniqueId>716b3378-c945-4c4c-9c53-35534d0b734a</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3561,7 +3563,7 @@
                 <Name>MinuteOfDay</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>d91e49a2-5895-4038-aa4f-cd5047bffdb9</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3575,7 +3577,7 @@
             <UniqueId>04c7b47a-5c35-45d9-ae87-47bc233fca85</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3593,7 +3595,7 @@
                 <Name>Second</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>9dfa6230-e00f-42c1-a29b-8f180a2b6ce0</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3607,7 +3609,7 @@
             <UniqueId>737da16b-d4a1-467d-b874-56fae5ec529a</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3625,7 +3627,7 @@
                 <Name>SecondOfHour</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>ca5839c6-5a63-488c-a8d9-dc9a3fc18e9b</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3639,7 +3641,7 @@
             <UniqueId>c710952a-8ffd-4c86-811f-e326cf4fe85d</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3657,7 +3659,7 @@
                 <Name>SecondOfDay</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>8829d3f8-f739-4e78-91a8-e5939252191f</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3671,7 +3673,7 @@
             <UniqueId>143c9c57-4b5e-4e09-a10f-dc779210ed1d</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3689,7 +3691,7 @@
                 <Name>HalfHour</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>75966651-067d-4e6b-b51c-d528a861fb1f</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3703,7 +3705,7 @@
             <UniqueId>6f5f2a9f-559f-4133-b333-5e4a318374e5</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3721,7 +3723,7 @@
                 <Name>HalfHourOfDay</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>b5486b3a-5ef0-41f7-939f-7b5fc1c6bc87</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3735,7 +3737,7 @@
             <UniqueId>5db81f85-f7cd-4aa1-a39d-b6df174e602b</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3753,7 +3755,7 @@
                 <Name>QuarterHour</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>539695c1-6f05-4455-9345-931e502c9c07</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3767,7 +3769,7 @@
             <UniqueId>e438ef63-7b16-4d2b-8c85-2aff1b48e5f6</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3785,7 +3787,7 @@
                 <Name>QuarterHourOfDay</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>3055d9b8-3b4b-425d-816e-c10a82f27a8d</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3799,7 +3801,7 @@
             <UniqueId>71a6711b-5761-4460-a039-3b7971604d33</UniqueId>
             <IsUniqueConstraint>false</IsUniqueConstraint>
             <EntityId>
-              <Id>00000000-0000-0000-0000-000000000000</Id>
+              <Id>85fc866d-0f9f-4135-9685-315a2ca36d27</Id>
             </EntityId>
             <TableSchema />
             <TableName>TimeDimension</TableName>
@@ -3817,7 +3819,7 @@
                 <Name>AmOrPm</Name>
                 <IsDescending>false</IsDescending>
                 <ElementId>
-                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                  <Id>5725cd0a-abd6-4553-892b-d971150e9fd6</Id>
                 </ElementId>
               </IndexColumn>
             </Columns>
@@ -3901,6 +3903,7 @@
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields />
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
@@ -3988,6 +3991,7 @@
           <ActionName>Entity</ActionName>
         </TableInfo>
         <EntityType>General</EntityType>
+        <Relationships />
         <Indexes />
         <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
           <IsReadOnly>false</IsReadOnly>
@@ -4017,7 +4021,7 @@
   <Maps />
   <Relationships />
   <VisualInfo xsi:type="DataModelFlowDiagramInfo">
-    <UniqueId>c3c23f67-ce7b-42bf-b0d1-26a9ea9a43a1</UniqueId>
+    <UniqueId>7ab2268a-aa33-4ddd-9d9a-f06bcd54f906</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>

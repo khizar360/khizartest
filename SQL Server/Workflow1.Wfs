@@ -13,77 +13,128 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>1c9c3886-d1e9-427f-9dc3-148aa80d2d04</UniqueId>
+        <UniqueId>39c0ee60-16f3-495e-b5b7-62c070907710</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>1c9c3886-d1e9-427f-9dc3-148aa80d2d04</ActionId>
+        <ActionId>39c0ee60-16f3-495e-b5b7-62c070907710</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>SapBapiRead</ActionTemplateName>
+        <ActionTemplateName>ReportMining</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>200</X>
-            <Y>276</Y>
-            <IsExpanded>true</IsExpanded>
+            <X>149</X>
+            <Y>84</Y>
+            <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
         </NodeBounds>
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
-        <SourceActionRole>Normal</SourceActionRole>
-        <Name>SapBapi</Name>
+        <SourceActionRole>Singleton</SourceActionRole>
+        <Name>ReportModel</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceSapBapi>
-        <Name>SapBapi</Name>
+      <DataflowItemDataUd>
+        <Name>ReportModel</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
-          <IsReadOnly>false</IsReadOnly>
-          <UseSharedConnection>false</UseSharedConnection>
-          <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
-          <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
-          <UseS3ForStaging>false</UseS3ForStaging>
-          <StagingProvider>None</StagingProvider>
-          <SecurityToken />
-          <UseSandbox>false</UseSandbox>
-          <RetrieveDeleted>false</RetrieveDeleted>
-          <ResetCache>false</ResetCache>
-          <WebProxyUserId />
-          <WebProxyPassword />
-          <JobId>0</JobId>
-          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
-          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
-        </DbInfo>
-        <SharingConnection>false</SharingConnection>
-      </DataflowItemDataSourceSapBapi>
+        <Layout xsi:type="ReportLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ReportModel</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ReportMiningDefinition</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <EndType>LineCount</EndType>
+          <RegionFormat>Unknown</RegionFormat>
+          <HasFieldsWithNoValues>false</HasFieldsWithNoValues>
+          <Patterns>
+            <LinePatternBase xsi:type="LinePattern">
+              <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+              <ApplyToLine>0</ApplyToLine>
+              <IsRegEx>false</IsRegEx>
+              <FloatFields>true</FloatFields>
+              <IsFloatingPattern>false</IsFloatingPattern>
+              <LineLength>0</LineLength>
+              <PatternText />
+            </LinePatternBase>
+          </Patterns>
+          <Pattern xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText />
+          </Pattern>
+          <ContentType>Report</ContentType>
+          <LineCount>1</LineCount>
+          <RegionType>Top</RegionType>
+          <IsContainer>false</IsContainer>
+          <IsOverlappedContainer>false</IsOverlappedContainer>
+          <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+          <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+          <IsMultiColumnRegion>false</IsMultiColumnRegion>
+          <RegionColumnStarts />
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Singleton</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <FilePath />
+        <CanStage>true</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <isDisabledFieldVisible>false</isDisabledFieldVisible>
+        <ReportMiningDefinitionFilePath>
+          <Path />
+          <UncPath />
+        </ReportMiningDefinitionFilePath>
+        <FilePathResolved>
+          <Path />
+          <UncPath />
+        </FilePathResolved>
+      </DataflowItemDataUd>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>21514115-4804-4af7-81dc-99ea3ed6efa2</UniqueId>
+    <UniqueId>ea81a44b-82bd-459f-9990-2b720778d6b7</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>199</X>
-        <Y>276</Y>
+        <X>148</X>
+        <Y>84</Y>
       </Location>
       <Size>
         <Width>197</Width>
-        <Height>140</Height>
+        <Height>220</Height>
       </Size>
-      <X>199</X>
-      <Y>276</Y>
+      <X>148</X>
+      <Y>84</Y>
       <Width>197</Width>
-      <Height>140</Height>
+      <Height>220</Height>
     </DocumentBounds>
     <DocumentPosition>
       <X>0</X>

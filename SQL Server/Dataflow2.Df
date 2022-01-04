@@ -60,6 +60,7 @@
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields />
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
@@ -85,7 +86,7 @@
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>ee322f31-1e79-4fd9-8fd2-2da595580dc0</UniqueId>
+    <UniqueId>a59749f4-afda-42ca-92cb-41420e49757f</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
