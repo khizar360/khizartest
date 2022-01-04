@@ -60,6 +60,7 @@
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields />
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
@@ -147,6 +148,7 @@
           <ActionName>Entity</ActionName>
         </TableInfo>
         <EntityType>General</EntityType>
+        <Relationships />
         <Indexes />
         <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
           <IsReadOnly>false</IsReadOnly>
@@ -176,7 +178,7 @@
   <Maps />
   <Relationships />
   <VisualInfo xsi:type="DataModelFlowDiagramInfo">
-    <UniqueId>cb6cab16-e9f1-4ddd-99b6-9e2d0ec64cd8</UniqueId>
+    <UniqueId>a67c99c4-ac15-4a68-8ef6-ff1eae053443</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>

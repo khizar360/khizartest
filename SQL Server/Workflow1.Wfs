@@ -26,10 +26,10 @@
         <ActionTemplateName>ExcelSource</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
-            <Height>0</Height>
-            <Width>0</Width>
-            <X>126</X>
-            <Y>149</Y>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>132</X>
+            <Y>90</Y>
             <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -60,6 +60,7 @@
           </LayoutBuildingOptions>
           <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
           <Fields />
+          <DisabledFields />
           <Children />
           <Referenced />
           <ValidationRules />
@@ -113,19 +114,19 @@
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>0f1d1220-7922-46e1-89c5-a41e835edb61</UniqueId>
+    <UniqueId>dc400373-1340-47bd-b2ff-03db832539e6</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>125</X>
-        <Y>149</Y>
+        <X>131</X>
+        <Y>90</Y>
       </Location>
       <Size>
         <Width>197</Width>
         <Height>220</Height>
       </Size>
-      <X>125</X>
-      <Y>149</Y>
+      <X>131</X>
+      <Y>90</Y>
       <Width>197</Width>
       <Height>220</Height>
     </DocumentBounds>
