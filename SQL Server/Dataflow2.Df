@@ -3,7 +3,7 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>C:\GitHub_Testing\SQL Server\Dataflow2.Df</Name>
+  <Name>C:\GitHub_Testing\SQL Server\Dataflows_WithoutPlaceholders\Dataflow2.Df</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
@@ -13,23 +13,23 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>f9f0bfdc-c209-4c0a-bc80-fd6c04aba624</UniqueId>
+        <UniqueId>4b100108-359b-4741-8219-97305078cfd0</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>f9f0bfdc-c209-4c0a-bc80-fd6c04aba624</ActionId>
+        <ActionId>4b100108-359b-4741-8219-97305078cfd0</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>ExcelSource</ActionTemplateName>
+        <ActionTemplateName>DatabaseSource</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>116</X>
-            <Y>120</Y>
+            <X>147</X>
+            <Y>85</Y>
             <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -37,24 +37,24 @@
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
         <SourceActionRole>Normal</SourceActionRole>
-        <Name>ExcelSource</Name>
+        <Name>DatabaseSource</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceExcel>
-        <Name>ExcelSource</Name>
+      <DataflowItemDataSourceDatabase>
+        <Name>DatabaseSource</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <Layout xsi:type="ExcelLayout" IsHierarchicalFile="false">
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
           <IsFolder>false</IsFolder>
           <Id>0</Id>
           <IsNewRecord>false</IsNewRecord>
-          <Name>ExcelSource</Name>
+          <Name>DatabaseSource</Name>
           <Description />
           <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
           <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
           <IsSharedLayout>false</IsSharedLayout>
           <LayoutBuildingOptions>
-            <RecordType>ExcelSheet</RecordType>
+            <RecordType>Database</RecordType>
             <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
             <LayoutBuildingProcess>Default</LayoutBuildingProcess>
           </LayoutBuildingOptions>
@@ -63,69 +63,181 @@
           <Children />
           <Referenced />
           <ValidationRules />
-          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" ConsecutiveBlankRowsToMarkEOF="1">
+          <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter>
+              <DataProviderType>Adm</DataProviderType>
+              <DataProviderType>DynamicsCrm</DataProviderType>
+              <DataProviderType>OData</DataProviderType>
+              <DataProviderType>SalesforceLegacy</DataProviderType>
+              <DataProviderType>Sqlite</DataProviderType>
+              <DataProviderType>Tableau</DataProviderType>
+              <DataProviderType>Salesforce</DataProviderType>
+              <DataProviderType>AmazonAuroraMySql</DataProviderType>
+              <DataProviderType>AmazonAuroraPostgreSql</DataProviderType>
+              <DataProviderType>MariaDb</DataProviderType>
+              <DataProviderType>MySql</DataProviderType>
+              <DataProviderType>PostgreSql</DataProviderType>
+              <DataProviderType>Redshift</DataProviderType>
+              <DataProviderType>SapHana</DataProviderType>
+              <DataProviderType>Snowflake</DataProviderType>
+              <DataProviderType>Vertica</DataProviderType>
+              <DataProviderType>MSAccess</DataProviderType>
+              <DataProviderType>DB2IBM</DataProviderType>
+              <DataProviderType>Netezza</DataProviderType>
+              <DataProviderType>ODBC</DataProviderType>
+              <DataProviderType>OracleODPNetManaged</DataProviderType>
+              <DataProviderType>OracleODPNet</DataProviderType>
+              <DataProviderType>SqlServer</DataProviderType>
+              <DataProviderType>Teradata</DataProviderType>
+            </providerFilter>
+            <UseSharedConnection>false</UseSharedConnection>
+            <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+            <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <SecurityToken />
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>0</JobId>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys />
+          <ReferencingForeignKeys />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" TrimStrings="true" ShowCollections="false">
             <FilterRules />
-            <DeleteFileWhenDone>false</DeleteFileWhenDone>
-            <PreparserFilterRegularExpression />
-            <UseParallelStream>true</UseParallelStream>
-            <FilePathResolved>
+            <AuditFieldValueStore>File</AuditFieldValueStore>
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <PartitionKeyValues />
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
               <Path />
               <UncPath />
-            </FilePathResolved>
-            <SkipFirstNBytes>0</SkipFirstNBytes>
-            <HierarchyDefinitionPath>
-              <Path />
-              <UncPath />
-            </HierarchyDefinitionPath>
-            <ProcessOnlyRecordsStartingWith />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
           </DefaultReaderOptions>
-          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" Sheet="">
+          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
             <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
             <CheckForNulls>true</CheckForNulls>
             <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
             <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
             <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
             <FilterRules />
-            <WriteTraceEntries>true</WriteTraceEntries>
-            <FilePathResolved>
-              <Path />
-              <UncPath />
-            </FilePathResolved>
+            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+            <IsolationLevel>Unspecified</IsolationLevel>
+            <MaxErrorCount>0</MaxErrorCount>
+            <KeyFields />
+            <TableInfo>
+              <TableType>Table</TableType>
+              <ColumnarTableType>None</ColumnarTableType>
+              <Schema />
+              <DataModelEntityType>Unknown</DataModelEntityType>
+              <DimensionType>None</DimensionType>
+              <IsQueryable>true</IsQueryable>
+              <IsUpdateable>true</IsUpdateable>
+              <IsIntersect>false</IsIntersect>
+            </TableInfo>
+            <TruncateTable>false</TruncateTable>
+            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+            <BulkCopyOptions>0</BulkCopyOptions>
+            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+            <DirectLoad>false</DirectLoad>
+            <TruncateToFit>false</TruncateToFit>
+            <UpdateConditionRules />
+            <WriteStrategy>AlwaysInsert</WriteStrategy>
           </DefaultWriterOptions>
+          <PrimaryKey />
+          <AllowsScd3AndScd6FieldRoles>false</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
         </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
         <ActionRole>Normal</ActionRole>
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <FilePath />
-        <CanStage>true</CanStage>
-        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
         <IsDynamicLayout>false</IsDynamicLayout>
         <DynamicLayoutOptions>
           <DeleteFieldsInSubsequentObjects>true</DeleteFieldsInSubsequentObjects>
           <AddFieldsInSubsequentObjects>true</AddFieldsInSubsequentObjects>
         </DynamicLayoutOptions>
-      </DataflowItemDataSourceExcel>
+        <CanPushdown>true</CanPushdown>
+        <SharingConnection>false</SharingConnection>
+        <CDCAuditFieldFile>
+          <Path />
+          <UncPath />
+        </CDCAuditFieldFile>
+        <PerformFullLoad>false</PerformFullLoad>
+        <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" EncryptedUser="" EncryptedPassword="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter>
+            <DataProviderType>Adm</DataProviderType>
+            <DataProviderType>DynamicsCrm</DataProviderType>
+            <DataProviderType>OData</DataProviderType>
+            <DataProviderType>SalesforceLegacy</DataProviderType>
+            <DataProviderType>Sqlite</DataProviderType>
+            <DataProviderType>Tableau</DataProviderType>
+            <DataProviderType>Salesforce</DataProviderType>
+            <DataProviderType>AmazonAuroraMySql</DataProviderType>
+            <DataProviderType>AmazonAuroraPostgreSql</DataProviderType>
+            <DataProviderType>MariaDb</DataProviderType>
+            <DataProviderType>MySql</DataProviderType>
+            <DataProviderType>PostgreSql</DataProviderType>
+            <DataProviderType>Redshift</DataProviderType>
+            <DataProviderType>SapHana</DataProviderType>
+            <DataProviderType>Snowflake</DataProviderType>
+            <DataProviderType>Vertica</DataProviderType>
+            <DataProviderType>MSAccess</DataProviderType>
+            <DataProviderType>DB2IBM</DataProviderType>
+            <DataProviderType>Netezza</DataProviderType>
+            <DataProviderType>ODBC</DataProviderType>
+            <DataProviderType>OracleODPNetManaged</DataProviderType>
+            <DataProviderType>OracleODPNet</DataProviderType>
+            <DataProviderType>SqlServer</DataProviderType>
+            <DataProviderType>Teradata</DataProviderType>
+          </providerFilter>
+          <UseSharedConnection>false</UseSharedConnection>
+          <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+          <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>0</JobId>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+        </DbInfo>
+      </DataflowItemDataSourceDatabase>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>0ccba5eb-221e-45ac-910e-a0062fbfe187</UniqueId>
+    <UniqueId>9a1203b8-5fa5-4dd0-b14d-2930458379fe</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>115</X>
-        <Y>120</Y>
+        <X>146</X>
+        <Y>85</Y>
       </Location>
       <Size>
         <Width>197</Width>
         <Height>220</Height>
       </Size>
-      <X>115</X>
-      <Y>120</Y>
+      <X>146</X>
+      <Y>85</Y>
       <Width>197</Width>
       <Height>220</Height>
     </DocumentBounds>
