@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>C:\Git\DWA-Final Regression\Dimension Loader Regressions\SQL Server\DWA.cprj</Name>
+  <Name>C:\GitHub_Testing\SQL Server\DWA.cprj</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
@@ -152,74 +152,6 @@
         <Members>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>Parameters.cfg</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_DifferentCombinations</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Reset.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_CurrentRecord.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinantions_SuperWorkflow.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_VersionNumber.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_Currentrecord_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_VersionNumber_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_EffectiveDate.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_EffectiveExpirationDate.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_ExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_EffectiveExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_EffectiveDate_Excel.Df</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
@@ -1433,82 +1365,6 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_SCD2</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_Currentrecord_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_SCD1</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_Currentrecord_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
         <Name>Workflow_SCD3</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
@@ -1740,23 +1596,10 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_Sort</Name>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Dataflow3.Df</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Sort.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Sort_OutputFiles.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
       </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
@@ -1913,74 +1756,6 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_DifferentCombinations</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Reset.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_CurrentRecord.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinantions_SuperWorkflow.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_VersionNumber.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_Currentrecord_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_VersionNumber_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_EffectiveDate.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombination_EffectiveExpirationDate.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_ExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_EffectiveExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffComb_EffectiveDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
         <Name>DifferentCombinations</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
@@ -3187,82 +2962,6 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_SCD2</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_Currentrecord_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_SCD1</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_Currentrecord_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber_Excel.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
         <Name>Workflow_SCD3</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
@@ -3494,23 +3193,10 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Workflows_Sort</Name>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Dataflow3.Df</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Sort.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>Sort_OutputFiles.Wfs</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
       </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
