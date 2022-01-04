@@ -1,0 +1,577 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WorkflowDocument2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProductVersion="8.4.0.1420">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\Git\DWA-Final Regression\Dimension Loader Regressions\SQL Server\Workflows_Sort\Sort_OutputFiles.Wfs</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>637e77e3-3a1a-4221-96cc-0e5f723eb1b6</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>637e77e3-3a1a-4221-96cc-0e5f723eb1b6</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>FileSystem</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>186</X>
+            <Y>115</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Loop</SourceActionRole>
+        <Name>FileSystem</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataSourceFileSystem>
+        <Name>FileSystem</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>FileSystem</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FileName" Index="0" AllowsNull="true" Name="FileName">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>c5c9fe0d-2659-4819-a34a-173ddb4d77d3</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FileNameWithoutExtension" Index="1" AllowsNull="true" Name="FileNameWithoutExtension">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>1e121815-1a39-49c8-b664-d941223e655f</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Extension" Index="2" AllowsNull="true" Name="Extension">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>03e8c8ab-aba2-4a5c-9162-6a2200ab8f1c</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="FullPath" Index="3" AllowsNull="true" Name="FullPath">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>4a6bfb9e-361f-4e01-b318-c198d7a887a5</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Directory" Index="4" AllowsNull="true" Name="Directory">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>3a39f2ba-8f99-4d40-87b7-b5a895d5d8c8</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="ReadOnly" Index="5" AllowsNull="true" Name="ReadOnly">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>8e9d6b13-023b-44d1-b3e8-9a2f385e7540</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="Size" Index="6" AllowsNull="true" Name="Size">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ca5fd844-aecb-4187-aeff-4eb0aa88376d</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="LastAccess" Index="7" AllowsNull="true" Name="LastAccess">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>3e5c349d-69d8-47bd-9c48-847fd3e3fb33</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Date" IsPrimaryKey="false" Header="LastWrite" Index="8" AllowsNull="true" Name="LastWrite">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>7eb9c83b-5413-4da0-b219-6c918febac40</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="Hidden" Index="9" AllowsNull="true" Name="Hidden">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>9adcbbc2-ffeb-4146-b4b1-10966e3f3299</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Boolean" IsPrimaryKey="false" Header="System" Index="10" AllowsNull="true" Name="System">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>6fdcd3ad-b80f-414d-b226-8d9e96bda418</UniqueId>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <ContinueIterationOnError>false</ContinueIterationOnError>
+        <ActionRole>Loop</ActionRole>
+        <OutboundTransform>
+          <Transforms />
+        </OutboundTransform>
+        <FilePath>\\arrakis\share\Areeba Shamsi\DWA-Final Regression\Dimension Loader Regressions\SQL Server\OutputExcelFiles</FilePath>
+        <Filter>*.xlsx</Filter>
+        <FilePathResolved>
+          <Path>\\arrakis\share\Areeba Shamsi\DWA-Final Regression\Dimension Loader Regressions\SQL Server\OutputExcelFiles</Path>
+          <UncPath>\\arrakis\share\Areeba Shamsi\DWA-Final Regression\Dimension Loader Regressions\SQL Server\OutputExcelFiles</UncPath>
+        </FilePathResolved>
+        <SearchInSubdirectories>false</SearchInSubdirectories>
+        <ShowDirectories>false</ShowDirectories>
+        <Attributes />
+      </DataflowItemDataSourceFileSystem>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>48ff2b4c-aa71-460a-a721-a784ed7a7c63</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>48ff2b4c-aa71-460a-a721-a784ed7a7c63</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>RunDataflow2</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>543</X>
+            <Y>127</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>RunDataflow</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <WorkflowItemDataStartDataflowJob2>
+        <Name>RunDataflow</Name>
+        <IsShared>false</IsShared>
+        <ActionRole>Normal</ActionRole>
+        <JobFilePath>
+          <Path>C:\Git\DWA-Final Regression\Dimension Loader Regressions\SQL Server\Workflows_Sort\Sort.Df</Path>
+          <UncPath>C:\Git\DWA-Final Regression\Dimension Loader Regressions\SQL Server\Workflows_Sort\Sort.Df</UncPath>
+          <RelativePath>Sort.Df</RelativePath>
+        </JobFilePath>
+        <ServerPort>0</ServerPort>
+        <ParameterInfo>
+          <AllowsSharedActions>true</AllowsSharedActions>
+          <AllowsReplacementCharacter>false</AllowsReplacementCharacter>
+          <AllowsFileIterators>false</AllowsFileIterators>
+          <ActionParameters>
+            <ActionParameterInfo>
+              <Name>ExcelSource</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoFilePath">
+                  <Name>SourceFile</Name>
+                  <CurrentValueStr>C:\Git\DWA-Final Regression\Dimension Loader Regressions\Postgresql\Baselines\DiffComb_CurrentRecord.xlsx</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>false</IsWebPath>
+                  <FileUsage>Read</FileUsage>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>Worksheet</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>Variables</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>filepath</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <ParameterPath />
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>destpath</Name>
+                  <CurrentValueStr>C:\sorted baseline\</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <ParameterPath />
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>filename</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <ParameterPath />
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+            <ActionParameterInfo>
+              <Name>ExcelDest</Name>
+              <IsExternalParam>false</IsExternalParam>
+              <Parameters>
+                <ParameterInfoBase xsi:type="ParameterInfoFilePath">
+                  <Name>DestinationFile</Name>
+                  <CurrentValueStr>C:\sorted baseline\1.xlsx</CurrentValueStr>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                  <IsWebPath>false</IsWebPath>
+                  <FileUsage>Write</FileUsage>
+                </ParameterInfoBase>
+                <ParameterInfoBase xsi:type="ParameterInfoSingleValue">
+                  <Name>Worksheet</Name>
+                  <DataType>String</DataType>
+                  <Direction>Input</Direction>
+                </ParameterInfoBase>
+              </Parameters>
+            </ActionParameterInfo>
+          </ActionParameters>
+        </ParameterInfo>
+        <ResumeActionType>Rerun</ResumeActionType>
+        <SavedOutboundMeta>
+          <Children />
+          <Elements />
+          <Referenced>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>$JobFilePath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>filepath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>destpath</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>filename</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Input</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+            <MetaBaseOfMetaElement xsi:type="MetaObject">
+              <Children />
+              <Elements>
+                <MetaElement>
+                  <Name>Status</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorMessage</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ErrorStack</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>String</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>NVarChar</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>CompletedSuccessfully</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Boolean</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Boolean</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>JobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>ParentJobId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+                <MetaElement>
+                  <Name>SessionId</Name>
+                  <IsPrimaryKey>false</IsPrimaryKey>
+                  <HasCollections>false</HasCollections>
+                  <DataType>Integer</DataType>
+                  <CanRead>true</CanRead>
+                  <CanWrite>true</CanWrite>
+                  <CoreDbType>Int64</CoreDbType>
+                </MetaElement>
+              </Elements>
+              <Referenced />
+              <Name>Output</Name>
+              <InboundPortVisible>true</InboundPortVisible>
+              <OutboundPortVisible>true</OutboundPortVisible>
+              <Indicator>None</Indicator>
+              <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+              <IsEmbeddedMember>false</IsEmbeddedMember>
+            </MetaBaseOfMetaElement>
+          </Referenced>
+          <Name>RunDataflow</Name>
+          <InboundPortVisible>true</InboundPortVisible>
+          <OutboundPortVisible>true</OutboundPortVisible>
+          <Indicator>None</Indicator>
+          <IsPrimitiveValueCollection>false</IsPrimitiveValueCollection>
+          <IsEmbeddedMember>false</IsEmbeddedMember>
+        </SavedOutboundMeta>
+        <RegressionType>None</RegressionType>
+        <IsPushdown>false</IsPushdown>
+      </WorkflowItemDataStartDataflowJob2>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links>
+    <FlowDocumentItemLink>
+      <UniqueId>fc398efd-6def-4026-9b2c-8caf18a59fef</UniqueId>
+      <LoopOptions>
+        <RunItemsInParallel>false</RunItemsInParallel>
+        <DegreeOfParallelism>1</DegreeOfParallelism>
+      </LoopOptions>
+      <Start>FileSystem</Start>
+      <End>RunDataflow</End>
+      <LinkType>Loop</LinkType>
+    </FlowDocumentItemLink>
+  </Links>
+  <Maps>
+    <FlowDocumentItemMap>
+      <UniqueId>3bd6b967-9bd7-4ec1-882e-842508be12e2</UniqueId>
+      <Start>FileSystem.FullPath</Start>
+      <End>RunDataflow.Input.filepath</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+    <FlowDocumentItemMap>
+      <UniqueId>8aee1eb1-f508-4087-88e4-c2d78e89ded2</UniqueId>
+      <Start>FileSystem.FileName</Start>
+      <End>RunDataflow.Input.filename</End>
+      <MapValueType>Value</MapValueType>
+      <MapLinkType>Data</MapLinkType>
+    </FlowDocumentItemMap>
+  </Maps>
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>a76a646a-5edb-49ed-a36a-7c88f0f09d89</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>186</X>
+        <Y>115</Y>
+      </Location>
+      <Size>
+        <Width>569</Width>
+        <Height>263</Height>
+      </Size>
+      <X>186</X>
+      <Y>115</Y>
+      <Width>569</Width>
+      <Height>263</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>-10</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+</WorkflowDocument2>
