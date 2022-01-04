@@ -3,406 +3,15 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>C:\GitHub_Testing\SQL Server\DWA.cprj</Name>
+  <Name>C:\GitHub_Testing\SQL Server\dwa.cprj</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
   <_TopFolder>
-    <Name>DWA.cprj</Name>
+    <Name>dwa.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
     <Members>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Data Models</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Dataflows_WithoutPlaceholders</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFolder">
         <Name>Baselines</Name>
         <ProjectType>Integration</ProjectType>
@@ -460,6 +69,97 @@
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>SCD1_CurrentRecord.xlsx</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Data Models</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_CurrentRecordDesignator_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveDate_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveExpirationDate_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_ExpirationDate_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_VersionNumber_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Dataflows_WithoutPlaceholders</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveDate1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveDate2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_ExpirationDate1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_ExpirationDate2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_VersionNumber1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_VersionNumber2_NoPlaceholder.Df</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
@@ -470,401 +170,10 @@
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
   <TopFolder>
-    <Name>DWA.cprj</Name>
+    <Name>dwa.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
     <Members>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Data Models</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_CurrentRecordDesignator_SQL.mdl</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFolder">
-        <Name>Dataflows_WithoutPlaceholders</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-        <Members>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD1_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD2_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD3_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>SCD6_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_ExpirationDate2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_VersionNumber1_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-          <ProjectItem xsi:type="ProjectItemFile">
-            <Name>DiffCombinations_VersionNumber2_NoPlaceholder.Df</Name>
-            <ProjectType>Integration</ProjectType>
-            <VcAction>None</VcAction>
-          </ProjectItem>
-        </Members>
-        <IsExpanded>false</IsExpanded>
-      </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFolder">
         <Name>Baselines</Name>
         <ProjectType>Integration</ProjectType>
@@ -922,6 +231,97 @@
           </ProjectItem>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>SCD1_CurrentRecord.xlsx</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Data Models</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_CurrentRecordDesignator_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveDate_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveExpirationDate_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_ExpirationDate_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_VersionNumber_SQL.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Dataflows_WithoutPlaceholders</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_CurrentRecordDesignator1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_CurrentRecordDesignator2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveDate1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveDate2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveExpirationDate1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_EffectiveExpirationDate2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_ExpirationDate1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_ExpirationDate2_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_VersionNumber1_NoPlaceholder.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DiffCombinations_VersionNumber2_NoPlaceholder.Df</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
