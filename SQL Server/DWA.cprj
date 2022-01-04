@@ -167,17 +167,17 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Dataflow2.Df</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
         <Name>Workflow1.Wfs</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
         <Name>DataModel3.mdl</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Dataflow2.Df</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
@@ -344,17 +344,17 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Dataflow2.Df</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
         <Name>Workflow1.Wfs</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
         <Name>DataModel3.mdl</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Dataflow2.Df</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
