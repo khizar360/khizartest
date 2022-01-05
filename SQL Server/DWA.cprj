@@ -181,6 +181,19 @@
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Folder</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DataModel5.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
@@ -357,6 +370,19 @@
         <Name>Dataflow8.Df</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFolder">
+        <Name>Folder</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+        <Members>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>DataModel5.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+        </Members>
+        <IsExpanded>false</IsExpanded>
       </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
