@@ -199,6 +199,11 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>test.mdl</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
@@ -393,6 +398,11 @@
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>test.mdl</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
       </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
