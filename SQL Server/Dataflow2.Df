@@ -13,23 +13,23 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>f01b3c6c-1e90-4e6b-be34-c30318a2ca29</UniqueId>
+        <UniqueId>d502653f-a76b-4417-a9e2-e5c6444cda19</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>f01b3c6c-1e90-4e6b-be34-c30318a2ca29</ActionId>
+        <ActionId>d502653f-a76b-4417-a9e2-e5c6444cda19</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>Email2</ActionTemplateName>
+        <ActionTemplateName>ReportMining</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
-            <Height>0</Height>
-            <Width>0</Width>
-            <X>159</X>
-            <Y>117</Y>
+            <Height>220</Height>
+            <Width>180</Width>
+            <X>144</X>
+            <Y>223</Y>
             <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -37,87 +37,102 @@
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
         <SourceActionRole>Normal</SourceActionRole>
-        <Name>Email</Name>
+        <Name>ReportModel</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceEmail2>
-        <Name>Email</Name>
+      <DataflowItemDataUd>
+        <Name>ReportModel</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
+        <Layout xsi:type="ReportLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>ReportModel</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>ReportMiningDefinition</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <EndType>LineCount</EndType>
+          <RegionFormat>Unknown</RegionFormat>
+          <HasFieldsWithNoValues>false</HasFieldsWithNoValues>
+          <Patterns>
+            <LinePatternBase xsi:type="LinePattern">
+              <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+              <ApplyToLine>0</ApplyToLine>
+              <IsRegEx>false</IsRegEx>
+              <FloatFields>true</FloatFields>
+              <IsFloatingPattern>false</IsFloatingPattern>
+              <LineLength>0</LineLength>
+              <PatternText />
+            </LinePatternBase>
+          </Patterns>
+          <Pattern xsi:type="LinePattern">
+            <IsCaseSensitiveMatch>false</IsCaseSensitiveMatch>
+            <ApplyToLine>0</ApplyToLine>
+            <IsRegEx>false</IsRegEx>
+            <FloatFields>true</FloatFields>
+            <IsFloatingPattern>false</IsFloatingPattern>
+            <LineLength>0</LineLength>
+            <PatternText />
+          </Pattern>
+          <ContentType>Report</ContentType>
+          <LineCount>1</LineCount>
+          <RegionType>Top</RegionType>
+          <IsContainer>false</IsContainer>
+          <IsOverlappedContainer>false</IsOverlappedContainer>
+          <FieldPositionsMayBeOff>false</FieldPositionsMayBeOff>
+          <MaxFieldStartAdjustment>0</MaxFieldStartAdjustment>
+          <IsMultiColumnRegion>false</IsMultiColumnRegion>
+          <RegionColumnStarts />
+        </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
         <ActionRole>Normal</ActionRole>
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <EmailFolder>Inbox</EmailFolder>
-        <AuthMode>Auto</AuthMode>
-        <Protocol>Imap</Protocol>
-        <AttachmentsFolderPath>
+        <FilePath />
+        <CanStage>true</CanStage>
+        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
+        <isDisabledFieldVisible>false</isDisabledFieldVisible>
+        <ReportMiningDefinitionFilePath>
           <Path />
           <UncPath />
-        </AttachmentsFolderPath>
-        <DownloadAttachments>false</DownloadAttachments>
-        <ReadUnreadOnly>true</ReadUnreadOnly>
-        <MarkEmailAsRead>true</MarkEmailAsRead>
-        <IgnoreMailAlreadyPresent>false</IgnoreMailAlreadyPresent>
-        <Pop3GetTypeSetting>Full</Pop3GetTypeSetting>
-        <Pop3DeleteAfterReading>false</Pop3DeleteAfterReading>
-        <WebInfo>
-          <Authentication>
-            <AuthenticationMethod>None</AuthenticationMethod>
-            <ConsumerKey />
-            <ConsuerSecret />
-            <UserName />
-            <Password />
-          </Authentication>
-          <Proxy>
-            <UseProxy>false</UseProxy>
-            <ProxyPort>8080</ProxyPort>
-            <ProxyType>Socks4</ProxyType>
-            <LogLevel>Off</LogLevel>
-            <ProxyLoginName />
-            <ProxyPassword />
-          </Proxy>
-          <TransportSecurity>
-            <SecurityType>None</SecurityType>
-            <CertificateFilePath>
-              <Path />
-              <UncPath />
-            </CertificateFilePath>
-            <CertificatePassword />
-            <PrivateKey />
-            <IntegrityProtectionType>None</IntegrityProtectionType>
-          </TransportSecurity>
-          <Port>25</Port>
-          <Timeout>30</Timeout>
-          <RetryCount>4</RetryCount>
-          <RequireSSL>false</RequireSSL>
-          <UserName />
-          <Password />
-          <LogLevel>Off</LogLevel>
-          <EmailProtocol>Imap</EmailProtocol>
-        </WebInfo>
-        <ListenerId>0</ListenerId>
-      </DataflowItemDataSourceEmail2>
+        </ReportMiningDefinitionFilePath>
+        <FilePathResolved>
+          <Path />
+          <UncPath />
+        </FilePathResolved>
+      </DataflowItemDataUd>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>aba51408-6f15-4a6c-8564-12a1f8482b5d</UniqueId>
+    <UniqueId>171fa614-90aa-42b7-88fb-fb6ed2ed9735</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>158</X>
-        <Y>117</Y>
+        <X>143</X>
+        <Y>223</Y>
       </Location>
       <Size>
         <Width>197</Width>
         <Height>220</Height>
       </Size>
-      <X>158</X>
-      <Y>117</Y>
+      <X>143</X>
+      <Y>223</Y>
       <Width>197</Width>
       <Height>220</Height>
     </DocumentBounds>

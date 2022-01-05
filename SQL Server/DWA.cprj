@@ -3,12 +3,12 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>C:\GitHub_Testing\SQL Server\dwa.cprj</Name>
+  <Name>C:\GitHub_Testing\SQL Server\DWA.cprj</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
   <_TopFolder>
-    <Name>dwa.cprj</Name>
+    <Name>DWA.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
     <Members>
@@ -200,22 +200,12 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Text File1.Txt</Name>
+        <Name>XML File3.Xml</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
-        <Name>RestTest1.ctst</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>XML File1.Xml</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>API1.API</Name>
+        <Name>ConfigFile1.Cfg</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
@@ -223,7 +213,7 @@
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
   <TopFolder>
-    <Name>dwa.cprj</Name>
+    <Name>DWA.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
     <Members>
@@ -415,22 +405,12 @@
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
-        <Name>Text File1.Txt</Name>
+        <Name>XML File3.Xml</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
-        <Name>RestTest1.ctst</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>XML File1.Xml</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>API1.API</Name>
+        <Name>ConfigFile1.Cfg</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
