@@ -13,23 +13,23 @@
   <Actions>
     <FlowDocumentItemAction>
       <ActionProperties>
-        <UniqueId>630db01e-99a0-417b-9d6c-3f507efb09ee</UniqueId>
+        <UniqueId>b6a7e620-a23c-4e3b-ae50-70843b6be80e</UniqueId>
         <DocumentItemData>
           <SharingConnection>false</SharingConnection>
           <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
         </DocumentItemData>
-        <ActionId>630db01e-99a0-417b-9d6c-3f507efb09ee</ActionId>
+        <ActionId>b6a7e620-a23c-4e3b-ae50-70843b6be80e</ActionId>
         <SharedItemPath>
           <Path />
           <UncPath />
         </SharedItemPath>
-        <ActionTemplateName>COBOLSource</ActionTemplateName>
+        <ActionTemplateName>ADO</ActionTemplateName>
         <NodeBounds>
           <NormalBounds>
             <Height>0</Height>
             <Width>0</Width>
-            <X>135</X>
-            <Y>147</Y>
+            <X>75</X>
+            <Y>66</Y>
             <IsExpanded>false</IsExpanded>
             <IsSorted>false</IsSorted>
           </NormalBounds>
@@ -37,24 +37,24 @@
         <IsSkip>false</IsSkip>
         <IsHidden>false</IsHidden>
         <SourceActionRole>Singleton</SourceActionRole>
-        <Name>COBOLSource</Name>
+        <Name>ADO</Name>
         <DoNotPushdown>false</DoNotPushdown>
       </ActionProperties>
-      <DataflowItemDataSourceCobol>
-        <Name>COBOLSource</Name>
+      <DataflowItemDataSourceAdo>
+        <Name>ADO</Name>
         <IsShared>false</IsShared>
         <AutoLog>false</AutoLog>
-        <Layout xsi:type="CobolLayout" IsHierarchicalFile="false">
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
           <IsFolder>false</IsFolder>
           <Id>0</Id>
           <IsNewRecord>false</IsNewRecord>
-          <Name>COBOLSource</Name>
+          <Name>ADO</Name>
           <Description />
           <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
           <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
           <IsSharedLayout>false</IsSharedLayout>
           <LayoutBuildingOptions>
-            <RecordType>Cobol</RecordType>
+            <RecordType>Record</RecordType>
             <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
             <LayoutBuildingProcess>Default</LayoutBuildingProcess>
           </LayoutBuildingOptions>
@@ -63,61 +63,51 @@
           <Children />
           <Referenced />
           <ValidationRules />
-          <DefaultReaderOptions EndRecord="0" StartRecord="0" Encoding="utf-8">
-            <FilterRules />
-            <CopybookFilePathResolved>
-              <Path />
-              <UncPath />
-            </CopybookFilePathResolved>
-            <SourceFilePathResolved>
-              <Path />
-              <UncPath />
-            </SourceFilePathResolved>
-            <UserAttributes>
-              <Attributes />
-            </UserAttributes>
-            <IgnoreLineNumbersAtStart>false</IgnoreLineNumbersAtStart>
-            <CompIsNibbles>false</CompIsNibbles>
-            <IsZoneDecimalSignExplicit>false</IsZoneDecimalSignExplicit>
-          </DefaultReaderOptions>
-          <DefaultWriterOptions>
-            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
-            <CheckForNulls>true</CheckForNulls>
-            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
-            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
-            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
-            <FilterRules />
-          </DefaultWriterOptions>
         </Layout>
         <ContinueIterationOnError>false</ContinueIterationOnError>
         <ActionRole>Singleton</ActionRole>
         <OutboundTransform>
           <Transforms />
         </OutboundTransform>
-        <FilePath />
-        <CanStage>true</CanStage>
-        <MakeAllFieldsAsStringInBuildLayout>false</MakeAllFieldsAsStringInBuildLayout>
-        <CobolCopybookFilePath />
-      </DataflowItemDataSourceCobol>
+        <Parameters />
+        <DbInfo Port="0" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="NullProvider" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <UseSharedConnection>false</UseSharedConnection>
+          <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+          <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>0</JobId>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+        </DbInfo>
+        <SharingConnection>false</SharingConnection>
+      </DataflowItemDataSourceAdo>
     </FlowDocumentItemAction>
   </Actions>
   <Links />
   <Maps />
   <Relationships />
   <VisualInfo>
-    <UniqueId>eeb5077e-3fa4-4e95-b595-88f5e467f66a</UniqueId>
+    <UniqueId>813054f9-99a6-4724-9b97-3ffe7dab17ca</UniqueId>
     <Actions />
     <DocumentBounds>
       <Location>
-        <X>134</X>
-        <Y>147</Y>
+        <X>74</X>
+        <Y>66</Y>
       </Location>
       <Size>
         <Width>197</Width>
         <Height>220</Height>
       </Size>
-      <X>134</X>
-      <Y>147</Y>
+      <X>74</X>
+      <Y>66</Y>
       <Width>197</Width>
       <Height>220</Height>
     </DocumentBounds>
