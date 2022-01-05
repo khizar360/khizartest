@@ -1,0 +1,698 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataflowDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="9.0.0.390">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\GitHub_Testing\SQL Server\Dataflow8.Df</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>9729b4e3-9056-4965-9492-a7b7aa8c6d53</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>9729b4e3-9056-4965-9492-a7b7aa8c6d53</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DelimitedParser</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>163</X>
+            <Y>291</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DelimitedParser</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDelimitedParser>
+        <Name>DelimitedParser</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Output</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Delimited</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>true</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <IsWebServerLogFile>false</IsWebServerLogFile>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" AllowRecordDelimiterInsideField="false" FieldDelimiterString="&lt;Comma&gt;" RecordDelimiter="&#xD;&#xA;" QuoteChar="34">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" AlwaysWriteQuoteChar="false" FieldDelimiter="," FieldEscapeType="SurroundWithQualifier" QuoteChar="34" QuoteEscape="0" RecordDelimiter="&#xD;&#xA;" NoDelimeter="false" FieldDelimiterString="&lt;Comma&gt;">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+          </DefaultWriterOptions>
+          <HierarchicalProperties>
+            <IsCaseSensitive>false</IsCaseSensitive>
+          </HierarchicalProperties>
+        </Layout>
+        <InputLayout IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Text" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Text">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2dbd2220-6456-4c33-acdb-efa68c2e08d5</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </InputLayout>
+        <RootNode>Root</RootNode>
+        <ShowErrorCollection>false</ShowErrorCollection>
+        <IsMultipleRecords>false</IsMultipleRecords>
+        <BuildOperationType>BuildOneRecordPerOutput</BuildOperationType>
+        <FirstRowHasHeaders>false</FirstRowHasHeaders>
+        <RecordDelimiter>&#xD;
+</RecordDelimiter>
+        <FieldDelimiter>,</FieldDelimiter>
+        <QuoteChar>34</QuoteChar>
+        <DataPattern>SingleRecord</DataPattern>
+        <FieldValueDelimiter>,</FieldValueDelimiter>
+        <ArraySeparator>,</ArraySeparator>
+      </DataflowItemDataDelimitedParser>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>2e675b7f-85db-4e02-9ee2-ccf5af289bed</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>2e675b7f-85db-4e02-9ee2-ccf5af289bed</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>FixedLengthParser</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>238</X>
+            <Y>320</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>FixedLengthParser</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataFixedLengthParser>
+        <Name>FixedLengthParser</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="FixedLayout" IsHierarchicalFile="false" RecordLength="0">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Output</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>FixedLength</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>true</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" IsShorterRecordOK="true" RecordDelimiter="&#xD;&#xA;" RecordLength="0" IsCobolDataFile="false">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+            <FieldStartMarkers />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" RecordDelimiter="&#xD;&#xA;" NoDelimeter="false" RecordLength="0">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <InputLayout IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Text" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Text">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>99f756f0-24e6-4c13-92e5-30bd9f437c56</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </InputLayout>
+        <RootNode>Root</RootNode>
+        <ShowErrorCollection>false</ShowErrorCollection>
+        <IsMultipleRecords>false</IsMultipleRecords>
+        <BuildOperationType>BuildOneRecordPerOutput</BuildOperationType>
+        <FirstRowHasHeaders>false</FirstRowHasHeaders>
+        <RecordDelimiter>&#xD;
+</RecordDelimiter>
+      </DataflowItemDataFixedLengthParser>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>71d425fe-7257-4f32-9bae-9b1e3fc49b0d</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>71d425fe-7257-4f32-9bae-9b1e3fc49b0d</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>FixedLengthBuilder</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>172</X>
+            <Y>403</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>FixedLengthSerializer</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataFixedLengthBuilder>
+        <Name>FixedLengthSerializer</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="FixedLayout" IsHierarchicalFile="false" RecordLength="0">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Input</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>FixedLength</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>true</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" IsShorterRecordOK="true" RecordDelimiter="&#xD;&#xA;" RecordLength="0" IsCobolDataFile="false">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+            <FieldStartMarkers />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" RecordDelimiter="&#xD;&#xA;" NoDelimeter="false" RecordLength="0">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+          </DefaultWriterOptions>
+        </Layout>
+        <InputLayout IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Text" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Text">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>f9d809e8-f59d-4ec4-b7c4-de8069ffcc15</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </InputLayout>
+        <RootNode>Root</RootNode>
+        <ShowErrorCollection>false</ShowErrorCollection>
+        <IsMultipleRecords>false</IsMultipleRecords>
+        <BuildOperationType>BuildOneRecordPerOutput</BuildOperationType>
+        <FirstRowHasHeaders>false</FirstRowHasHeaders>
+        <RecordDelimiter>&#xD;
+</RecordDelimiter>
+      </DataflowItemDataFixedLengthBuilder>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>588426f0-d6d5-4988-b0ba-0c8415d0ca90</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>588426f0-d6d5-4988-b0ba-0c8415d0ca90</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DelimitedBuilder</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>130</X>
+            <Y>210</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>DelimitedSerializer</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataDelimitedBuilder>
+        <Name>DelimitedSerializer</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DelimitedLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Input</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Delimited</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>true</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <IsWebServerLogFile>false</IsWebServerLogFile>
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" BooleanFormatToUse="" CaseInsensitiveHeaderMatch="true" ColumnMatching="UseFieldSequence" DateFormatToUse="" Encoding="utf-8" HeaderRowCount="1" IgnoreExtraFields="true" IgnoreLastRow="false" IntegerFormatToUse="" MissingFieldsOK="false" NumberOfRecordsToReadForLayoutBuilding="5000" MakeAllFieldsAsStringInBuildLayout="false" PreparserFilterType="ProcessAll" RealFormatToUse="" SkipFirstNRecords="0" SkipNullRecords="true" TreatEmptyStringAsNull="true" TrimStrings="true" UseParallelReader="true" FirstRowContainsHeaders="true" AllowAlternateHeaders="false" FilePath="" PartitionFile="false" UseMemoryMappedFile="false" PartitionCount="1" AllowRecordDelimiterInsideField="false" FieldDelimiterString="&lt;Comma&gt;" RecordDelimiter="&#xD;&#xA;" QuoteChar="34">
+            <FilterRules />
+            <DeleteFileWhenDone>false</DeleteFileWhenDone>
+            <PreparserFilterRegularExpression />
+            <UseParallelStream>true</UseParallelStream>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+            <SkipFirstNBytes>0</SkipFirstNBytes>
+            <HierarchyDefinitionPath>
+              <Path />
+              <UncPath />
+            </HierarchyDefinitionPath>
+            <ProcessOnlyRecordsStartingWith />
+          </DefaultReaderOptions>
+          <DefaultWriterOptions Encoding="utf-8" MaintainOriginalSequenceForWriting="true" OmitBOM="false" FirstRowContainsHeaders="true" FilePath="" Append="false" NullText="" NumberOfRecordsToReadForLayoutBuilding="5000" AlwaysWriteQuoteChar="false" FieldDelimiter="," FieldEscapeType="SurroundWithQualifier" QuoteChar="34" QuoteEscape="0" RecordDelimiter="&#xD;&#xA;" NoDelimeter="false" FieldDelimiterString="&lt;Comma&gt;">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <WriteTraceEntries>true</WriteTraceEntries>
+            <FilePathResolved>
+              <Path />
+              <UncPath />
+            </FilePathResolved>
+          </DefaultWriterOptions>
+          <HierarchicalProperties>
+            <IsCaseSensitive>false</IsCaseSensitive>
+          </HierarchicalProperties>
+        </Layout>
+        <InputLayout IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Text" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Text">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>0a46b46a-da5c-46af-9038-dcb898e1d6b3</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </InputLayout>
+        <RootNode>Root</RootNode>
+        <ShowErrorCollection>false</ShowErrorCollection>
+        <IsMultipleRecords>false</IsMultipleRecords>
+        <BuildOperationType>BuildOneRecordPerOutput</BuildOperationType>
+        <FirstRowHasHeaders>false</FirstRowHasHeaders>
+        <RecordDelimiter>&#xD;
+</RecordDelimiter>
+        <FieldDelimiter>,</FieldDelimiter>
+        <QuoteChar>34</QuoteChar>
+        <DataPattern>SingleRecord</DataPattern>
+        <FieldValueDelimiter>,</FieldValueDelimiter>
+        <ArraySeparator>,</ArraySeparator>
+      </DataflowItemDataDelimitedBuilder>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>4eab34c5-b474-462e-b304-35707ede4066</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>4eab34c5-b474-462e-b304-35707ede4066</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>NVParser</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>71</X>
+            <Y>471</Y>
+            <IsExpanded>true</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>NVParser</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataNameValueParser>
+        <Name>NVParser</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="RecordLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Output</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>true</SuppressLayoutBuilding>
+          <Fields />
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </Layout>
+        <InputLayout IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>Record</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Record</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <RecordField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="String" IsPrimaryKey="false" Header="Text" Index="0" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Text">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>371838e3-9302-4d4d-9996-01b1e58e763f</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ParameterType>Query</ParameterType>
+              <PaginationFieldType>None</PaginationFieldType>
+              <IsRequired>true</IsRequired>
+              <RestParameterRequired>false</RestParameterRequired>
+              <IsSharedConnectionParameter>false</IsSharedConnectionParameter>
+              <IsResourceParameter>false</IsResourceParameter>
+              <InheritedParameter>No</InheritedParameter>
+              <OverrideInheritedParameter>false</OverrideInheritedParameter>
+            </RecordField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+        </InputLayout>
+        <RootNode>Root</RootNode>
+        <ShowErrorCollection>false</ShowErrorCollection>
+        <IsMultipleRecords>false</IsMultipleRecords>
+        <BuildOperationType>BuildOneRecordPerOutput</BuildOperationType>
+        <IsHttpUrl>false</IsHttpUrl>
+        <TextQualifier>0</TextQualifier>
+        <ValueMustBeSurroundedWithQualifier>false</ValueMustBeSurroundedWithQualifier>
+        <AllFieldsMustBePresent>false</AllFieldsMustBePresent>
+      </DataflowItemDataNameValueParser>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps />
+  <Relationships />
+  <VisualInfo>
+    <UniqueId>16a1991d-74d7-4379-8c48-b855e61e8cd6</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>65</X>
+        <Y>210</Y>
+      </Location>
+      <Size>
+        <Width>385</Width>
+        <Height>412</Height>
+      </Size>
+      <X>65</X>
+      <Y>210</Y>
+      <Width>385</Width>
+      <Height>412</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+  </VisualInfo>
+  <IsReadyForPreview>false</IsReadyForPreview>
+</DataflowDocument>
