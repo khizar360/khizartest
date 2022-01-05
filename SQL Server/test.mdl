@@ -1,0 +1,1261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DataModelDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ProductVersion="9.0.0.390">
+  <IsFolder>false</IsFolder>
+  <Id>0</Id>
+  <IsNewRecord>false</IsNewRecord>
+  <Name>C:\GitHub_Testing\SQL Server\test.mdl</Name>
+  <Description />
+  <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+  <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+  <AutoLayoutOnNextLoad>false</AutoLayoutOnNextLoad>
+  <Views />
+  <ExplicitAnchors />
+  <Actions>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>a1086a68-7023-4f9b-b652-38045b92d188</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>a1086a68-7023-4f9b-b652-38045b92d188</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>DmTime</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>220</X>
+            <Y>168</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>TimeDimension</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataModelItemDataTimeDimension>
+        <Name>TimeDimension</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+        <Layout xsi:type="DbLayout" IsHierarchicalFile="false">
+          <IsFolder>false</IsFolder>
+          <Id>0</Id>
+          <IsNewRecord>false</IsNewRecord>
+          <Name>TimeDimension</Name>
+          <Description />
+          <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
+          <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
+          <IsSharedLayout>false</IsSharedLayout>
+          <LayoutBuildingOptions>
+            <RecordType>Database</RecordType>
+            <LayoutBuildingDefaultMode>SourceDefault</LayoutBuildingDefaultMode>
+            <LayoutBuildingProcess>Default</LayoutBuildingProcess>
+          </LayoutBuildingOptions>
+          <SuppressLayoutBuilding>false</SuppressLayoutBuilding>
+          <Fields>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="true" Header="Key" Index="0" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Key" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Key">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ccce7f3d-1d78-46f2-a60e-d3382255afaf</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>SurrogateKey</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="11" DataType="String" IsPrimaryKey="false" Header="Time" Index="1" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Time" DbDataTypeName="NVARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="NVarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="Time">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>20b720ef-c4b7-4d56-86dd-55eb146738ae</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>BusinessKey</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="Hour12" Index="2" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Hour12" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Hour12">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>adb3c574-9d3c-4092-96df-4137590b4d00</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="Hour24" Index="3" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Hour24" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Hour24">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>c0c769ad-8a4e-4a40-b151-f25c43baa3b2</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="Minute" Index="4" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Minute" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Minute">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ff0b963e-a4f4-4713-8fb9-5d2cc7db9620</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="MinuteOfDay" Index="5" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="MinuteOfDay" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="MinuteOfDay">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>5e652a5a-914e-4157-9b07-6a99a021e5e4</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="Second" Index="6" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="Second" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="Second">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>ae912639-6a11-49e4-b56a-4d94de4d84d6</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="SecondOfHour" Index="7" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="SecondOfHour" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SecondOfHour">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>37569256-665c-476f-9bb8-1071a96484b8</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="SecondOfDay" Index="8" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="SecondOfDay" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="SecondOfDay">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>81e482cd-59d2-4001-9d25-6015a2094201</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="HalfHour" Index="9" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="HalfHour" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="HalfHour">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>c9cb4e60-285b-438a-bb42-67c9d291f1ec</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="HalfHourOfDay" Index="10" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="HalfHourOfDay" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="HalfHourOfDay">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>8cb9945d-7cfb-4058-a75f-25635305b036</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="QuarterHour" Index="11" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="QuarterHour" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="QuarterHour">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>2c0c6b16-fd38-4c0a-8e49-be9863739dab</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="0" DataType="Integer" IsPrimaryKey="false" Header="QuarterHourOfDay" Index="12" AllowsNull="false" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="QuarterHourOfDay" DbDataTypeName="INT" DecimalLength="0" SurvivorValueType="New" CoreDbType="Int32" IsLengthAllowed="false" IsDecimalAllowed="false" IsLengthRequired="false" IsSystemGenerated="false" ColumnName="QuarterHourOfDay">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>77a9c07c-2d7d-4b6a-aeff-6e9e9a6302b0</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+            <DbLayoutField MaxFieldLengthInLayoutBuilding="-1" MaxNumericValueInLayoutBuilding="0" MaxDecimalPlacesInLayoutBuilding="0" Length="2" DataType="String" IsPrimaryKey="false" Header="AmOrPm" Index="13" AllowsNull="true" IsDependent="false" IsCategorical="false" IsTimeVariable="false" IsResponseVariable="false" TimeSeriesXReg="false" IsOrdinal="false" TimeSeriesNullTreatment="None" Name="AmOrPm" DbDataTypeName="NVARCHAR" DecimalLength="0" SurvivorValueType="New" CoreDbType="NVarChar" IsLengthAllowed="true" IsDecimalAllowed="false" IsLengthRequired="true" IsSystemGenerated="false" ColumnName="AmOrPm">
+              <FieldRoles>Input Output</FieldRoles>
+              <UniqueId>bb50c477-1bde-4482-9b2c-40364aa3f33d</UniqueId>
+              <IsAllowedInOutput>true</IsAllowedInOutput>
+              <RegressionType>None</RegressionType>
+              <IsInput>true</IsInput>
+              <IsOutput>true</IsOutput>
+              <IsVariable>false</IsVariable>
+              <HasCollections>false</HasCollections>
+              <CompositeType>None</CompositeType>
+              <CompositeComponentType>None</CompositeComponentType>
+              <ScdFieldType>NotUsed</ScdFieldType>
+              <AggregateFunction>None</AggregateFunction>
+              <DataModelRole>Unknown</DataModelRole>
+              <FactFieldType>None</FactFieldType>
+              <IsQueryable>true</IsQueryable>
+              <IsCalculated>false</IsCalculated>
+              <IsFilterable>true</IsFilterable>
+              <IsExternalId>false</IsExternalId>
+              <IsCreateable>true</IsCreateable>
+              <IsCreateableDateDim>true</IsCreateableDateDim>
+              <IsCreateableTimeDim>true</IsCreateableTimeDim>
+              <IsUpdateable>true</IsUpdateable>
+              <IsForeignKey>false</IsForeignKey>
+              <IsDistributionKey>false</IsDistributionKey>
+              <IsSyncComparison>true</IsSyncComparison>
+              <CustomProperties />
+              <RelationshipId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </RelationshipId>
+              <PrimaryKeyFieldId>
+                <Id>00000000-0000-0000-0000-000000000000</Id>
+              </PrimaryKeyFieldId>
+            </DbLayoutField>
+          </Fields>
+          <Children />
+          <Referenced />
+          <ValidationRules />
+          <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" EncryptedUser="" EncryptedPassword="" TableName="TimeDimension" TableSchema="dbo" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+            <IsReadOnly>false</IsReadOnly>
+            <providerFilter />
+            <UseSharedConnection>false</UseSharedConnection>
+            <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+            <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+            <UseS3ForStaging>false</UseS3ForStaging>
+            <StagingProvider>None</StagingProvider>
+            <SecurityToken />
+            <UseSandbox>false</UseSandbox>
+            <RetrieveDeleted>false</RetrieveDeleted>
+            <ResetCache>false</ResetCache>
+            <WebProxyUserId />
+            <WebProxyPassword />
+            <JobId>0</JobId>
+            <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+            <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+          </DbInfo>
+          <LoadKeys />
+          <ForeignKeys />
+          <ReferencingForeignKeys />
+          <DefaultReaderOptions EndRecord="0" StartRecord="0" PartitionTable="false" FavorLocalLayout="false" PartitionCount="1" TrimStrings="true" ShowCollections="false">
+            <FilterRules />
+            <AuditFieldValueStore>File</AuditFieldValueStore>
+            <DoNotAddWhereKeywordToUserWhereClause>false</DoNotAddWhereKeywordToUserWhereClause>
+            <PartitionKeyValues />
+            <IncrementalReadStrategy>None</IncrementalReadStrategy>
+            <IncrementalTransferKeys />
+            <IncrementalTransferFilePath>
+              <Path />
+              <UncPath />
+            </IncrementalTransferFilePath>
+            <PerformFullLoad>false</PerformFullLoad>
+            <DeleteInDestinationIfDeletedFromSource>false</DeleteInDestinationIfDeletedFromSource>
+          </DefaultReaderOptions>
+          <DefaultWriterOptions UseParallelWrites="false" TransactionCommitAction="CommitAtEnd" UseTransactions="false" ParallelWriterCount="1" BulkCopyErrorAction="InsertIndividualRecords" BulkInsertBatchSize="10000" PreserveSystemGeneratedIds="false" RunGenerateStatistics="false" InsertOptions="BulkInsert" CheckFieldLengths="false" LogSQLLoaderErrors="false" FieldsWithNoMappingAction="DoNotModify" RecordDoesNotExistAction="Create" RecordExistsAction="Update" UpdateBatchSize="100" UseBatchedUpdate="true" RecordNotInSourceAction="Leave" SmartSyncBatchSize="1000" UseBulkInsert="true" CheckRecordExists="false">
+            <CheckDuplicateKeyValues>false</CheckDuplicateKeyValues>
+            <CheckForNulls>true</CheckForNulls>
+            <WriteNullStringAsEmptyString>false</WriteNullStringAsEmptyString>
+            <WriteNullNumericValuesAsZeros>false</WriteNullNumericValuesAsZeros>
+            <DoNotProcessRecordsWithErrors>false</DoNotProcessRecordsWithErrors>
+            <FilterRules />
+            <BulkLoadDataFormat>Delimited</BulkLoadDataFormat>
+            <IsolationLevel>Unspecified</IsolationLevel>
+            <MaxErrorCount>0</MaxErrorCount>
+            <KeyFields />
+            <TableInfo>
+              <Name>TimeDimension</Name>
+              <TableType>Table</TableType>
+              <ColumnarTableType>None</ColumnarTableType>
+              <Schema>dbo</Schema>
+              <DataModelEntityType>Unknown</DataModelEntityType>
+              <DimensionType>None</DimensionType>
+              <IsQueryable>true</IsQueryable>
+              <IsUpdateable>true</IsUpdateable>
+              <IsIntersect>false</IsIntersect>
+              <ActionName>TimeDimension</ActionName>
+            </TableInfo>
+            <TruncateTable>false</TruncateTable>
+            <DisableIndexesDuringLoad>false</DisableIndexesDuringLoad>
+            <BulkCopyOptions>0</BulkCopyOptions>
+            <UseConstraintBasedWrite>false</UseConstraintBasedWrite>
+            <SQLLoaderBatchSize>300000</SQLLoaderBatchSize>
+            <DirectLoad>false</DirectLoad>
+            <TruncateToFit>false</TruncateToFit>
+            <UpdateConditionRules />
+            <WriteStrategy>AlwaysInsert</WriteStrategy>
+          </DefaultWriterOptions>
+          <PrimaryKey>
+            <string>Key</string>
+          </PrimaryKey>
+          <AllowsScd3AndScd6FieldRoles>true</AllowsScd3AndScd6FieldRoles>
+          <IsCaseSensitive>false</IsCaseSensitive>
+        </Layout>
+        <IsResetCurrentRowIdentificationType>true</IsResetCurrentRowIdentificationType>
+        <TableInfo>
+          <Name>TimeDimension</Name>
+          <TableType>Table</TableType>
+          <ColumnarTableType>None</ColumnarTableType>
+          <Schema>dbo</Schema>
+          <DataModelEntityType>Unknown</DataModelEntityType>
+          <DimensionType>None</DimensionType>
+          <IsQueryable>true</IsQueryable>
+          <IsUpdateable>true</IsUpdateable>
+          <IsIntersect>false</IsIntersect>
+          <ActionName>TimeDimension</ActionName>
+        </TableInfo>
+        <EntityType>Dimension</EntityType>
+        <Indexes>
+          <Index>
+            <Name>PK_TimeDimension</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>true</IsUnique>
+            <UniqueId>46cfd371-7eed-4f77-95a0-f3c099d4f159</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>true</IsPrimaryKeyConstraint>
+            <IsClustered>true</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>false</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <Name>Key</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_Time</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>95a1aa87-5c76-4a70-9b60-ac87c6414116</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>Time</ElementName>
+                <Name>Time</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_Hour12</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>1458d986-9f17-4bb8-96ba-70ab50995629</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>Hour12</ElementName>
+                <Name>Hour12</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_Hour24</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>9e7ceda3-b95c-4000-a252-14f1659d88e2</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>Hour24</ElementName>
+                <Name>Hour24</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_Minute</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>aa4e4acd-6808-44ae-bbbe-259bec9f5ebc</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>Minute</ElementName>
+                <Name>Minute</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_MinuteOfDay</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>0c6cc67e-b5c5-4020-8ee8-4cbbd6d49e97</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>MinuteOfDay</ElementName>
+                <Name>MinuteOfDay</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_Second</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>b6b10457-d5a5-4fb2-8529-9074f80ac64c</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>Second</ElementName>
+                <Name>Second</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_SecondOfHour</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>4d550ce3-f8b6-4331-8890-1c81f8eb9ad0</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>SecondOfHour</ElementName>
+                <Name>SecondOfHour</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_SecondOfDay</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>56211ab0-7fe2-44c2-aa2a-90a27adf304d</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>SecondOfDay</ElementName>
+                <Name>SecondOfDay</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_HalfHour</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>c0bcbbf3-2ae1-4a5c-bede-750805061b6c</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>HalfHour</ElementName>
+                <Name>HalfHour</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_HalfHourOfDay</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>ac36531d-1011-4e21-92ba-067db3dfc4ff</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>HalfHourOfDay</ElementName>
+                <Name>HalfHourOfDay</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_QuarterHour</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>a80542b3-d0cd-41ea-b6e9-686d4baea272</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>QuarterHour</ElementName>
+                <Name>QuarterHour</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_QuarterHourOfDay</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>8dfce6e0-b52c-4293-83e7-fed1d0fbc2a3</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>QuarterHourOfDay</ElementName>
+                <Name>QuarterHourOfDay</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+          <Index>
+            <Name>IDX_TimeDimension_AmOrPm</Name>
+            <IncludeColumns />
+            <Id>0</Id>
+            <Schema>dbo</Schema>
+            <IsUnique>false</IsUnique>
+            <UniqueId>b3dc75e3-cda5-445f-b30d-f161e93c5bc7</UniqueId>
+            <IsUniqueConstraint>false</IsUniqueConstraint>
+            <EntityId>
+              <Id>00000000-0000-0000-0000-000000000000</Id>
+            </EntityId>
+            <TableSchema />
+            <TableName>TimeDimension</TableName>
+            <IsPrimaryKeyConstraint>false</IsPrimaryKeyConstraint>
+            <IsClustered>false</IsClustered>
+            <IsColumnStore>false</IsColumnStore>
+            <SupportsColumnStoreIndexes>false</SupportsColumnStoreIndexes>
+            <IsSecondaryIndex>false</IsSecondaryIndex>
+            <IsAutoGenerated>true</IsAutoGenerated>
+            <DoNotGenerate>false</DoNotGenerate>
+            <Columns>
+              <IndexColumn>
+                <Sequence>0</Sequence>
+                <ElementName>AmOrPm</ElementName>
+                <Name>AmOrPm</Name>
+                <IsDescending>false</IsDescending>
+                <ElementId>
+                  <Id>00000000-0000-0000-0000-000000000000</Id>
+                </ElementId>
+              </IndexColumn>
+            </Columns>
+          </Index>
+        </Indexes>
+        <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+          <IsReadOnly>false</IsReadOnly>
+          <providerFilter />
+          <UseSharedConnection>false</UseSharedConnection>
+          <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+          <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+          <UseS3ForStaging>false</UseS3ForStaging>
+          <StagingProvider>None</StagingProvider>
+          <SecurityToken />
+          <UseSandbox>false</UseSandbox>
+          <RetrieveDeleted>false</RetrieveDeleted>
+          <ResetCache>false</ResetCache>
+          <WebProxyUserId />
+          <WebProxyPassword />
+          <JobId>0</JobId>
+          <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+          <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+        </DbInfo>
+        <DimensionTableInfo />
+        <DimensionType>Time</DimensionType>
+        <SharingConnection>false</SharingConnection>
+        <FiscalYearStartMonth>0</FiscalYearStartMonth>
+        <FromTime>1901-01-01T00:00:00</FromTime>
+        <ToTime>1901-01-01T23:59:59</ToTime>
+        <KeyFormat>HH:mm:ss:tt</KeyFormat>
+        <Grain>Hours</Grain>
+        <CanDeleteLayoutRows>false</CanDeleteLayoutRows>
+      </DataModelItemDataTimeDimension>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>3a09d213-f5a5-4c3b-ba33-a010f14e1c5e</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>3a09d213-f5a5-4c3b-ba33-a010f14e1c5e</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Comment</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>238</X>
+            <Y>57</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Annotation</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataComment>
+        <Name>Annotation</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+      </DataflowItemDataComment>
+    </FlowDocumentItemAction>
+    <FlowDocumentItemAction>
+      <ActionProperties>
+        <UniqueId>71f2d998-1be7-4322-b53d-43b87f7941a3</UniqueId>
+        <DocumentItemData>
+          <SharingConnection>false</SharingConnection>
+          <ShareConnectionInstanceAmongDestinations>false</ShareConnectionInstanceAmongDestinations>
+        </DocumentItemData>
+        <ActionId>71f2d998-1be7-4322-b53d-43b87f7941a3</ActionId>
+        <SharedItemPath>
+          <Path />
+          <UncPath />
+        </SharedItemPath>
+        <ActionTemplateName>Comment</ActionTemplateName>
+        <NodeBounds>
+          <NormalBounds>
+            <Height>0</Height>
+            <Width>0</Width>
+            <X>99</X>
+            <Y>253</Y>
+            <IsExpanded>false</IsExpanded>
+            <IsSorted>false</IsSorted>
+          </NormalBounds>
+        </NodeBounds>
+        <IsSkip>false</IsSkip>
+        <IsHidden>false</IsHidden>
+        <SourceActionRole>Normal</SourceActionRole>
+        <Name>Annotation1</Name>
+        <DoNotPushdown>false</DoNotPushdown>
+      </ActionProperties>
+      <DataflowItemDataComment>
+        <Name>Annotation1</Name>
+        <IsShared>false</IsShared>
+        <AutoLog>false</AutoLog>
+      </DataflowItemDataComment>
+    </FlowDocumentItemAction>
+  </Actions>
+  <Links />
+  <Maps />
+  <Relationships />
+  <VisualInfo xsi:type="DataModelFlowDiagramInfo">
+    <UniqueId>825e0280-94af-4351-805a-3c904ade0329</UniqueId>
+    <Actions />
+    <DocumentBounds>
+      <Location>
+        <X>87</X>
+        <Y>37</Y>
+      </Location>
+      <Size>
+        <Width>403</Width>
+        <Height>416</Height>
+      </Size>
+      <X>87</X>
+      <Y>37</Y>
+      <Width>403</Width>
+      <Height>416</Height>
+    </DocumentBounds>
+    <DocumentPosition>
+      <X>0</X>
+      <Y>0</Y>
+    </DocumentPosition>
+    <DocumentScale>1</DocumentScale>
+    <MappingMode>Data</MappingMode>
+    <UseMessages>false</UseMessages>
+    <IsSelected>false</IsSelected>
+    <UseOrthogonalLinks>false</UseOrthogonalLinks>
+    <ShowAliases>false</ShowAliases>
+    <ShowVerbs>false</ShowVerbs>
+    <DataModelViewMode>Entity</DataModelViewMode>
+    <ShowDataTypes>false</ShowDataTypes>
+  </VisualInfo>
+  <ShowDateTimeRelationships>true</ShowDateTimeRelationships>
+  <DbInfo Port="1433" Protocol="http" Policy="MBI_SSL" Partner="crm.dynamics.com" IsOnPremise="false" TNSNamesFilePath="" ConnectionTimeOut="15" CommandTimeOut="90" IsAccessWorkgroup="false" CreateNewTable="false" IsAccessExclusive="false" DataProvider="SqlServer" Schema="" TableSchema="" UseWindowsAuthentication="false" UseCurrentDatabase="false">
+    <IsReadOnly>false</IsReadOnly>
+    <providerFilter />
+    <UseSharedConnection>false</UseSharedConnection>
+    <SharedConnectionShareConnectionInstanceAmongDestinations>false</SharedConnectionShareConnectionInstanceAmongDestinations>
+    <SharedConnectionUseTransaction>false</SharedConnectionUseTransaction>
+    <UseS3ForStaging>false</UseS3ForStaging>
+    <StagingProvider>None</StagingProvider>
+    <SecurityToken />
+    <UseSandbox>false</UseSandbox>
+    <RetrieveDeleted>false</RetrieveDeleted>
+    <ResetCache>false</ResetCache>
+    <WebProxyUserId />
+    <WebProxyPassword />
+    <JobId>0</JobId>
+    <OverrideDefaultOdbcDriverAttributes>false</OverrideDefaultOdbcDriverAttributes>
+    <OdbcConnectionInfoType>DSN</OdbcConnectionInfoType>
+  </DbInfo>
+  <DimensionalModelSettings>
+    <CommonFields />
+    <IndexOptions>
+      <AddDateToDimensionFKIndexesInFactTables>true</AddDateToDimensionFKIndexesInFactTables>
+      <CreateClusteredIndexOnTransactionDateInFactTables>false</CreateClusteredIndexOnTransactionDateInFactTables>
+      <AutomaticallyCreateIndexes>true</AutomaticallyCreateIndexes>
+    </IndexOptions>
+    <SchemaGenerationOptions>
+      <GeneratePrimaryKeysForFactTables>false</GeneratePrimaryKeysForFactTables>
+      <GeneratePrimaryKeysForDimensionTables>true</GeneratePrimaryKeysForDimensionTables>
+      <GenerateForeignKeys>true</GenerateForeignKeys>
+      <GenerateForeignKeysWithNoCheck>true</GenerateForeignKeysWithNoCheck>
+      <GenerateTableDrops>false</GenerateTableDrops>
+      <StatementTerminator>;</StatementTerminator>
+      <UseTransaction>false</UseTransaction>
+      <GenerateSequencesForSystemGeneratedKeyIfRequired>true</GenerateSequencesForSystemGeneratedKeyIfRequired>
+    </SchemaGenerationOptions>
+    <BiExportFlowBuilderOptions>
+      <OmitScdControlFields>false</OmitScdControlFields>
+      <TraverseSnowflakes>true</TraverseSnowflakes>
+    </BiExportFlowBuilderOptions>
+    <AddCommonFieldsToDimensionEntities>false</AddCommonFieldsToDimensionEntities>
+    <DefaultCurrentRowIdentificationType>None</DefaultCurrentRowIdentificationType>
+  </DimensionalModelSettings>
+  <Transformations />
+  <SyncSettings />
+  <DataModelMaps />
+  <Domains />
+</DataModelDocument>

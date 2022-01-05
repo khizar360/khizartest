@@ -219,6 +219,11 @@
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>test.mdl</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
@@ -431,6 +436,11 @@
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
         <Name>API1.API</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>test.mdl</Name>
         <ProjectType>Integration</ProjectType>
         <VcAction>None</VcAction>
       </ProjectItem>
