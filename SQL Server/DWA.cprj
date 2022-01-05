@@ -191,6 +191,11 @@
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>Dataflow12.Df</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
@@ -388,6 +393,11 @@
         <Members>
           <ProjectItem xsi:type="ProjectItemFile">
             <Name>DataModel5.mdl</Name>
+            <ProjectType>Integration</ProjectType>
+            <VcAction>None</VcAction>
+          </ProjectItem>
+          <ProjectItem xsi:type="ProjectItemFile">
+            <Name>Dataflow12.Df</Name>
             <ProjectType>Integration</ProjectType>
             <VcAction>None</VcAction>
           </ProjectItem>
