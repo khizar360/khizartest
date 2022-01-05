@@ -3,12 +3,12 @@
   <IsFolder>false</IsFolder>
   <Id>0</Id>
   <IsNewRecord>false</IsNewRecord>
-  <Name>C:\GitHub_Testing\SQL Server\dwa.cprj</Name>
+  <Name>C:\GitHub_Testing\SQL Server\DWA.cprj</Name>
   <Description />
   <CreateDtTm>0001-01-01T00:00:00</CreateDtTm>
   <UpdateDtTm>0001-01-01T00:00:00</UpdateDtTm>
   <_TopFolder>
-    <Name>dwa.cprj</Name>
+    <Name>DWA.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
     <Members>
@@ -198,11 +198,6 @@
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>test.mdl</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
         <Name>test.mdl</Name>
@@ -223,7 +218,7 @@
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
   <TopFolder>
-    <Name>dwa.cprj</Name>
+    <Name>DWA.cprj</Name>
     <ProjectType>Integration</ProjectType>
     <VcAction>None</VcAction>
     <Members>
@@ -413,11 +408,6 @@
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
-      </ProjectItem>
-      <ProjectItem xsi:type="ProjectItemFile">
-        <Name>test.mdl</Name>
-        <ProjectType>Integration</ProjectType>
-        <VcAction>None</VcAction>
       </ProjectItem>
       <ProjectItem xsi:type="ProjectItemFile">
         <Name>test.mdl</Name>
