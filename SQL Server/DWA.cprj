@@ -194,6 +194,16 @@
         </Members>
         <IsExpanded>false</IsExpanded>
       </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Text File1.Txt</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>RestTest1.ctst</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
   </_TopFolder>
@@ -383,6 +393,16 @@
           </ProjectItem>
         </Members>
         <IsExpanded>false</IsExpanded>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>Text File1.Txt</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
+      </ProjectItem>
+      <ProjectItem xsi:type="ProjectItemFile">
+        <Name>RestTest1.ctst</Name>
+        <ProjectType>Integration</ProjectType>
+        <VcAction>None</VcAction>
       </ProjectItem>
     </Members>
     <IsExpanded>false</IsExpanded>
